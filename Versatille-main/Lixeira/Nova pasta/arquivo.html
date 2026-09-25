@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Versatille</title>
+
+</head>
+
+<body style="
+    margin: 0;
+    padding: 0;
+    background-image: url('fundo_estrelado.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;">
+
+    <!--Barra de navegação-->
+    <header>
+        <nav style="background-color: #AF2767;
+        height: 5vh;
+        color: #fff;
+        padding: 1vh;">
+
+            <div style="display: grid;
+            grid-template-columns: auto auto auto auto;
+            align-items: center;
+            transform: translateY(-15px);" class="link">
+
+                <!--Links de navegação-->
+                <a style="text-decoration: none;
+                color: #ffff;
+                margin-left: 50px;" href="#">
+                    <h1>VERSATILLE</h1>
+                </a>
+
+                <a style="text-decoration: none;
+                color: #ffff;
+                margin-left: 50px;" href="sobre_versatille.html">
+                    Sobre o Versatille
+                </a>
+
+                <a style="text-decoration: none;
+                color: #ffff;
+                margin-left: 50px;" href="guarda-roupa.html">
+                    Guarda-Roupa
+                </a>
+
+                <!--Botão de entrar-->
+                <a style="border-radius: 10px;
+                background-color: #FFD8D3;
+                max-width: 15vh;
+                padding: 0.5vh;
+                text-align: center;
+                color: black;
+                text-decoration: none;" href="login.html" id="entrar">
+                    Entrar
+                </a>
+
+            </div>
+
+        </nav>
+    </header>
+
+    <!-- Conteúdo Principal / Painel Central -->
+    <main style="max-width: 1800px;
+    margin: 30px auto;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.4);">
+
+        <!-- Barra de Ferramentas / Categorias e Busca -->
+        <div style="background-color: #9f245b;
+        padding: 10px 15px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;">
+
+            <!-- Abas (Roupas / Acessórios) -->
+            <div style="display: flex; gap: 5px;">
+
+                <button style="background-color: #a82e63;
+                color: white;
+                border: none;
+                padding: 8px 25px;
+                font-weight: bold;
+                border-radius: 4px 4px 0 0;
+                cursor: pointer;">
+                    Roupas
+                </button>
+
+                <button style="background-color: #f7d2e6;
+                color: #8c1d50;
+                border: none;
+                padding: 8px 25px;
+                font-weight: bold;
+                border-radius: 4px 4px 0 0;
+                cursor: pointer;">
+                    Acessórios
+                </button>
+
+            </div>
+
+            <!-- Campo de Busca -->
+            <div style="display: flex;
+            align-items: center;
+            background-color: white;
+            border-radius: 3px;
+            overflow: hidden;
+            border: 1px solid #ccc;">
+
+                <input type="text"
+                placeholder="Buscar peça..."
+                style="border: none;
+                padding: 6px 12px;
+                outline: none;
+                width: 200px;
+                font-size: 14px;">
+
+                <button style="background-color: #5c1437;
+                color: white;
+                border: none;
+                padding: 6px 10px;
+                cursor: pointer;
+                display: flex;
+                align-items: center;
+                justify-content: center;">
+                    🔍
+                </button>
+
+            </div>
+
+        </div>
+
+        <!-- Área de Conteúdo Rosa Claro -->
+        <section style="background-color: #fce1f4;
+        padding: 20px;
+        box-sizing: border-box;">
+
+            <!-- Grid de Roupas -->
+            <div style="display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 15px;">
+
+                <!-- Item 1: Calcinha rosa com renda branca -->
+                <div style="background-color: #ffffff; border: 2px solid #8c1d50; border-radius: 12px; padding: 10px; position: relative; display: flex; flex-direction: column; justify-content: space-between; align-items: center; height: 190px; box-sizing: border-box;">
+                    <span style="position: absolute; top: 6px; right: 8px; font-size: 16px; color: #8c1d50; cursor: pointer;">♡</span>
+                    <img src="IMG/Calcinha rosa com renda branca.png" alt="Calcinha rosa com renda branca" style="max-height: 110px; max-width: 100%; object-fit: contain; margin-top: 10px;">
+                    <div style="width: 100%; display: flex; justify-content: space-between; align-items: flex-end;">
+                        <span style="font-size: 13px; font-weight: bold; color: #8c1d50; font-family: sans-serif;">Calcinha rosa com renda branca</span>
+                        <span style="color: #8c1d50; border: 1.5px solid #8c1d50; border-radius: 50%; width: 16px; height: 16px; display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: bold; cursor: pointer; font-family: sans-serif;">i</span>
+                    </div>
+                </div>
+
+                <!-- Item 2: Short jeans azul -->
+                <div style="background-color: #ffffff; border: 2px solid #8c1d50; border-radius: 12px; padding: 10px; position: relative; display: flex; flex-direction: column; justify-content: space-between; align-items: center; height: 190px; box-sizing: border-box;">
+                    <span style="position: absolute; top: 6px; right: 8px; font-size: 16px; color: #8c1d50; cursor: pointer;">♡</span>
+                    <img src="IMG/Short jeans azul.png" alt="Short jeans azul" style="max-height: 110px; max-width: 100%; object-fit: contain; margin-top: 10px;">
+                    <div style="width: 100%; display: flex; justify-content: space-between; align-items: flex-end;">
+                        <span style="font-size: 13px; font-weight: bold; color: #8c1d50; font-family: sans-serif;">Short jeans azul</span>
+                        <span style="color: #8c1d50; border: 1.5px solid #8c1d50; border-radius: 50%; width: 16px; height: 16px; display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: bold; cursor: pointer; font-family: sans-serif;">i</span>
+                    </div>
+                </div>
+
+                <!-- Item 3: Cachecol bege com detalhes laranjas e azuis -->
+                <div style="background-color: #ffffff; border: 2px solid #8c1d50; border-radius: 12px; padding: 10px; position: relative; display: flex; flex-direction: column; justify-content: space-between; align-items: center; height: 190px; box-sizing: border-box;">
+                    <span style="position: absolute; top: 6px; right: 8px; font-size: 16px; color: #8c1d50; cursor: pointer;">♡</span>
+                    <img src="IMG/Cachecol bege com detalhes laranjas e azuis.png" alt="Cachecol bege com detalhes laranjas e azuis" style="max-height: 110px; max-width: 100%; object-fit: contain; margin-top: 10px;">
+                    <div style="width: 100%; display: flex; justify-content: space-between; align-items: flex-end;">
+                        <span style="font-size: 13px; font-weight: bold; color: #8c1d50; font-family: sans-serif;">Cachecol bege com detalhes laranjas e azuis</span>
+                        <span style="color: #8c1d50; border: 1.5px solid #8c1d50; border-radius: 50%; width: 16px; height: 16px; display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: bold; cursor: pointer; font-family: sans-serif;">i</span>
+                    </div>
+                </div>
+
+                <!-- Item 4: Colar de pérolas -->
+                <div style="background-color: #ffffff; border: 2px solid #8c1d50; border-radius: 12px; padding: 10px; position: relative; display: flex; flex-direction: column; justify-content: space-between; align-items: center; height: 190px; box-sizing: border-box;">
+                    <span style="position: absolute; top: 6px; right: 8px; font-size: 16px; color: #8c1d50; cursor: pointer;">♡</span>
+                    <img src="IMG/Colar de pérolas.png" alt="Colar de pérolas" style="max-height: 110px; max-width: 100%; object-fit: contain; margin-top: 10px;">
+                    <div style="width: 100%; display: flex; justify-content: space-between; align-items: flex-end;">
+                        <span style="font-size: 13px; font-weight: bold; color: #8c1d50; font-family: sans-serif;">Colar de pérolas</span>
+                        <span style="color: #8c1d50; border: 1.5px solid #8c1d50; border-radius: 50%; width: 16px; height: 16px; display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: bold; cursor: pointer; font-family: sans-serif;">i</span>
+                    </div>
+                </div>
+
+                <!-- Item 5: Chapéu de bruxa -->
+                <div style="background-color: #ffffff; border: 2px solid #8c1d50; border-radius: 12px; padding: 10px; position: relative; display: flex; flex-direction: column; justify-content: space-between; align-items: center; height: 190px; box-sizing: border-box;">
+                    <span style="position: absolute; top: 6px; right: 8px; font-size: 16px; color: #8c1d50; cursor: pointer;">♡</span>
+                    <img src="IMG/Chapéu de bruxa.png" alt="Chapéu de bruxa" style="max-height: 110px; max-width: 100%; object-fit: contain; margin-top: 10px;">
+                    <div style="width: 100%; display: flex; justify-content: space-between; align-items: flex-end;">
+                        <span style="font-size: 13px; font-weight: bold; color: #8c1d50; font-family: sans-serif;">Chapéu de bruxa</span>
+                        <span style="color: #8c1d50; border: 1.5px solid #8c1d50; border-radius: 50%; width: 16px; height: 16px; display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: bold; cursor: pointer; font-family: sans-serif;">i</span>
+                    </div>
+                </div>
+
+                <!-- Item 6: Blazer rosa claro -->
+                <div style="background-color: #ffffff; border: 2px solid #8c1d50; border-radius: 12px; padding: 10px; position: relative; display: flex; flex-direction: column; justify-content: space-between; align-items: center; height: 190px; box-sizing: border-box;">
+                    <span style="position: absolute; top: 6px; right: 8px; font-size: 16px; color: #8c1d50; cursor: pointer;">♡</span>
+                    <img src="IMG/Blazer rosa claro.png" alt="Blazer rosa claro" style="max-height: 110px; max-width: 100%; object-fit: contain; margin-top: 10px;">
+                    <div style="width: 100%; display: flex; justify-content: space-between; align-items: flex-end;">
+                        <span style="font-size: 13px; font-weight: bold; color: #8c1d50; font-family: sans-serif;">Blazer rosa claro</span>
+                        <span style="color: #8c1d50; border: 1.5px solid #8c1d50; border-radius: 50%; width: 16px; height: 16px; display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: bold; cursor: pointer; font-family: sans-serif;">i</span>
+                    </div>
+                </div>
+
+                <!-- Item 7: Sandália azul escuro com detalhes dourados -->
+                <div style="background-color: #ffffff; border: 2px solid #8c1d50; border-radius: 12px; padding: 10px; position: relative; display: flex; flex-direction: column; justify-content: space-between; align-items: center; height: 190px; box-sizing: border-box;">
+                    <span style="position: absolute; top: 6px; right: 8px; font-size: 16px; color: #8c1d50; cursor: pointer;">♡</span>
+                    <img src="IMG/Sandália azul escuro com detalhes dourados.png" alt="Sandália azul escuro com detalhes dourados" style="max-height: 110px; max-width: 100%; object-fit: contain; margin-top: 10px;">
+                    <div style="width: 100%; display: flex; justify-content: space-between; align-items: flex-end;">
+                        <span style="font-size: 13px; font-weight: bold; color: #8c1d50; font-family: sans-serif;">Sandália azul escuro com detalhes dourados</span>
+                        <span style="color: #8c1d50; border: 1.5px solid #8c1d50; border-radius: 50%; width: 16px; height: 16px; display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: bold; cursor: pointer; font-family: sans-serif;">i</span>
+                    </div>
+                </div>
+
+                <!-- Item 8: Shorts preto curto -->
+                <div style="background-color: #ffffff; border: 2px solid #8c1d50; border-radius: 12px; padding: 10px; position: relative; display: flex; flex-direction: column; justify-content: space-between; align-items: center; height: 190px; box-sizing: border-box;">
+                    <span style="position: absolute; top: 6px; right: 8px; font-size: 16px; color: #8c1d50; cursor: pointer;">♡</span>
+                    <img src="IMG/Shorts preto curto.png" alt="Shorts preto curto" style="max-height: 110px; max-width: 100%; object-fit: contain; margin-top: 10px;">
+                    <div style="width: 100%; display: flex; justify-content: space-between; align-items: flex-end;">
+                        <span style="font-size: 13px; font-weight: bold; color: #8c1d50; font-family: sans-serif;">Shorts preto curto</span>
+                        <span style="color: #8c1d50; border: 1.5px solid #8c1d50; border-radius: 50%; width: 16px; height: 16px; display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: bold; cursor: pointer; font-family: sans-serif;">i</span>
+                    </div>
+                </div>
+
+                <!-- Item 9: Regata Rosa -->
+                <div style="background-color: #ffffff; border: 2px solid #8c1d50; border-radius: 12px; padding: 10px; position: relative; display: flex; flex-direction: column; justify-content: space-between; align-items: center; height: 190px; box-sizing: border-box;">
+                    <span style="position: absolute; top: 6px; right: 8px; font-size: 16px; color: #8c1d50; cursor: pointer;">♡</span>
+                    <img src="IMG/Regata Rosa.png" alt="Regata Rosa" style="max-height: 110px; max-width: 100%; object-fit: contain; margin-top: 10px;">
+                    <div style="width: 100%; display: flex; justify-content: space-between; align-items: flex-end;">
+                        <span style="font-size: 13px; font-weight: bold; color: #8c1d50; font-family: sans-serif;">Regata Rosa</span>
+                        <span style="color: #8c1d50; border: 1.5px solid #8c1d50; border-radius: 50%; width: 16px; height: 16px; display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: bold; cursor: pointer; font-family: sans-serif;">i</span>
+                    </div>
+                </div>
+
+                <!-- Item 10: Chinelo vermelho listrado -->
+                <div style="background-color: #ffffff; border: 2px solid #8c1d50; border-radius: 12px; padding: 10px; position: relative; display: flex; flex-direction: column; justify-content: space-between; align-items: center; height: 190px; box-sizing: border-box;">
+                    <span style="position: absolute; top: 6px; right: 8px; font-size: 16px; color: #8c1d50; cursor: pointer;">♡</span>
+                    <img src="IMG/Chinelo vermelho listrado.png" alt="Chinelo vermelho listrado" style="max-height: 110px; max-width: 100%; object-fit: contain; margin-top: 10px;">
+                    <div style="width: 100%; display: flex; justify-content: space-between; align-items: flex-end;">
+                        <span style="font-size: 13px; font-weight: bold; color: #8c1d50; font-family: sans-serif;">Chinelo vermelho listrado</span>
+                        <span style="color: #8c1d50; border: 1.5px solid #8c1d50; border-radius: 50%; width: 16px; height: 16px; display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: bold; cursor: pointer; font-family: sans-serif;">i</span>
+                    </div>
+                </div>
+
+                <!-- Item 11: Bota marrom de cano baixo -->
+                <div style="background-color: #ffffff; border: 2px solid #8c1d50; border-radius: 12px; padding: 10px; position: relative; display: flex; flex-direction: column; justify-content: space-between; align-items: center; height: 190px; box-sizing: border-box;">
+                    <span style="position: absolute; top: 6px; right: 8px; font-size: 16px; color: #8c1d50; cursor: pointer;">♡</span>
+                    <img src="IMG/Bota marrom de cano baixo.png" alt="Bota marrom de cano baixo" style="max-height: 110px; max-width: 100%; object-fit: contain; margin-top: 10px;">
+                    <div style="width: 100%; display: flex; justify-content: space-between; align-items: flex-end;">
+                        <span style="font-size: 13px; font-weight: bold; color: #8c1d50; font-family: sans-serif;">Bota marrom de cano baixo</span>
+                        <span style="color: #8c1d50; border: 1.5px solid #8c1d50; border-radius: 50%; width: 16px; height: 16px; display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: bold; cursor: pointer; font-family: sans-serif;">i</span>
+                    </div>
+                </div>
+
+                <!-- Item 12: Bolsa rosa -->
+                <div style="background-color: #ffffff; border: 2px solid #8c1d50; border-radius: 12px; padding: 10px; position: relative; display: flex; flex-direction: column; justify-content: space-between; align-items: center; height: 190px; box-sizing: border-box;">
+                    <span style="position: absolute; top: 6px; right: 8px; font-size: 16px; color: #8c1d50; cursor: pointer;">♡</span>
+                    <img src="IMG/Bolsa rosa.png" alt="Bolsa rosa" style="max-height: 110px; max-width: 100%; object-fit: contain; margin-top: 10px;">
+                    <div style="width: 100%; display: flex; justify-content: space-between; align-items: flex-end;">
+                        <span style="font-size: 13px; font-weight: bold; color: #8c1d50; font-family: sans-serif;">Bolsa rosa</span>
+                        <span style="color: #8c1d50; border: 1.5px solid #8c1d50; border-radius: 50%; width: 16px; height: 16px; display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: bold; cursor: pointer; font-family: sans-serif;">i</span>
+                    </div>
+                </div>
+
+                <!-- Item 13: Chapéu de festa rosa -->
+                <div style="background-color: #ffffff; border: 2px solid #8c1d50; border-radius: 12px; padding: 10px; position: relative; display: flex; flex-direction: column; justify-content: space-between; align-items: center; height: 190px; box-sizing: border-box;">
+                    <span style="position: absolute; top: 6px; right: 8px; font-size: 16px; color: #8c1d50; cursor: pointer;">♡</span>
+                    <img src="IMG/Chapéu de festa rosa.png" alt="Chapéu de festa rosa" style="max-height: 110px; max-width: 100%; object-fit: contain; margin-top: 10px;">
+                    <div style="width: 100%; display: flex; justify-content: space-between; align-items: flex-end;">
+                        <span style="font-size: 13px; font-weight: bold; color: #8c1d50; font-family: sans-serif;">Chapéu de festa rosa</span>
+                        <span style="color: #8c1d50; border: 1.5px solid #8c1d50; border-radius: 50%; width: 16px; height: 16px; display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: bold; cursor: pointer; font-family: sans-serif;">i</span>
+                    </div>
+                </div>
+
+                <!-- Item 14: Jaqueta jeans azul -->
+                <div style="background-color: #ffffff; border: 2px solid #8c1d50; border-radius: 12px; padding: 10px; position: relative; display: flex; flex-direction: column; justify-content: space-between; align-items: center; height: 190px; box-sizing: border-box;">
+                    <span style="position: absolute; top: 6px; right: 8px; font-size: 16px; color: #8c1d50; cursor: pointer;">♡</span>
+                    <img src="IMG/Jaqueta jeans azul.png" alt="Jaqueta jeans azul" style="max-height: 110px; max-width: 100%; object-fit: contain; margin-top: 10px;">
+                    <div style="width: 100%; display: flex; justify-content: space-between; align-items: flex-end;">
+                        <span style="font-size: 13px; font-weight: bold; color: #8c1d50; font-family: sans-serif;">Jaqueta jeans azul</span>
+                        <span style="color: #8c1d50; border: 1.5px solid #8c1d50; border-radius: 50%; width: 16px; height: 16px; display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: bold; cursor: pointer; font-family: sans-serif;">i</span>
+                    </div>
+                </div>
+
+                <!-- Item 15: Cardigã Verde -->
+                <div style="background-color: #ffffff; border: 2px solid #8c1d50; border-radius: 12px; padding: 10px; position: relative; display: flex; flex-direction: column; justify-content: space-between; align-items: center; height: 190px; box-sizing: border-box;">
+                    <span style="position: absolute; top: 6px; right: 8px; font-size: 16px; color: #8c1d50; cursor: pointer;">♡</span>
+                    <img src="IMG/Cardigã Verde.png" alt="Cardigã Verde" style="max-height: 110px; max-width: 100%; object-fit: contain; margin-top: 10px;">
+                    <div style="width: 100%; display: flex; justify-content: space-between; align-items: flex-end;">
+                        <span style="font-size: 13px; font-weight: bold; color: #8c1d50; font-family: sans-serif;">Cardigã Verde</span>
+                        <span style="color: #8c1d50; border: 1.5px solid #8c1d50; border-radius: 50%; width: 16px; height: 16px; display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: bold; cursor: pointer; font-family: sans-serif;">i</span>
+                    </div>
+                </div>
+
+                <!-- Item 16: Calça de alfaiataria rosa -->
+                <div style="background-color: #ffffff; border: 2px solid #8c1d50; border-radius: 12px; padding: 10px; position: relative; display: flex; flex-direction: column; justify-content: space-between; align-items: center; height: 190px; box-sizing: border-box;">
+                    <span style="position: absolute; top: 6px; right: 8px; font-size: 16px; color: #8c1d50; cursor: pointer;">♡</span>
+                    <img src="IMG/Calça de alfaiataria rosa.png" alt="Calça de alfaiataria rosa" style="max-height: 110px; max-width: 100%; object-fit: contain; margin-top: 10px;">
+                    <div style="width: 100%; display: flex; justify-content: space-between; align-items: flex-end;">
+                        <span style="font-size: 13px; font-weight: bold; color: #8c1d50; font-family: sans-serif;">Calça de alfaiataria rosa</span>
+                        <span style="color: #8c1d50; border: 1.5px solid #8c1d50; border-radius: 50%; width: 16px; height: 16px; display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: bold; cursor: pointer; font-family: sans-serif;">i</span>
+                    </div>
+                </div>
+
+                <!-- Item 17: Vestido vermelho -->
+                <div style="background-color: #ffffff; border: 2px solid #8c1d50; border-radius: 12px; padding: 10px; position: relative; display: flex; flex-direction: column; justify-content: space-between; align-items: center; height: 190px; box-sizing: border-box;">
+                    <span style="position: absolute; top: 6px; right: 8px; font-size: 16px; color: #8c1d50; cursor: pointer;">♡</span>
+                    <img src="IMG/Vestido vermelho.png" alt="Vestido vermelho" style="max-height: 110px; max-width: 100%; object-fit: contain; margin-top: 10px;">
+                    <div style="width: 100%; display: flex; justify-content: space-between; align-items: flex-end;">
+                        <span style="font-size: 13px; font-weight: bold; color: #8c1d50; font-family: sans-serif;">Vestido vermelho</span>
+                        <span style="color: #8c1d50; border: 1.5px solid #8c1d50; border-radius: 50%; width: 16px; height: 16px; display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: bold; cursor: pointer; font-family: sans-serif;">i</span>
+                    </div>
+                </div>
+
+                <!-- Item 18: Saia rosa -->
+                <div style="background-color: #ffffff; border: 2px solid #8c1d50; border-radius: 12px; padding: 10px; position: relative; display: flex; flex-direction: column; justify-content: space-between; align-items: center; height: 190px; box-sizing: border-box;">
+                    <span style="position: absolute; top: 6px; right: 8px; font-size: 16px; color: #8c1d50; cursor: pointer;">♡</span>
+                    <img src="IMG/Saia rosa.png" alt="Saia rosa" style="max-height: 110px; max-width: 100%; object-fit: contain; margin-top: 10px;">
+                    <div style="width: 100%; display: flex; justify-content: space-between; align-items: flex-end;">
+                        <span style="font-size: 13px; font-weight: bold; color: #8c1d50; font-family: sans-serif;">Saia rosa</span>
+                        <span style="color: #8c1d50; border: 1.5px solid #8c1d50; border-radius: 50%; width: 16px; height: 16px; display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: bold; cursor: pointer; font-family: sans-serif;">i</span>
+                    </div>
+                </div>
+
+                <!-- Item 19: Pijama da Peppa Pig -->
+                <div style="background-color: #ffffff; border: 2px solid #8c1d50; border-radius: 12px; padding: 10px; position: relative; display: flex; flex-direction: column; justify-content: space-between; align-items: center; height: 190px; box-sizing: border-box;">
+                    <span style="position: absolute; top: 6px; right: 8px; font-size: 16px; color: #8c1d50; cursor: pointer;">♡</span>
+                    <img src="IMG/Pijama da Peppa pig.png" alt="Pijama da Peppa Pig" style="max-height: 110px; max-width: 100%; object-fit: contain; margin-top: 10px;">
+                    <div style="width: 100%; display: flex; justify-content: space-between; align-items: flex-end;">
+                        <span style="font-size: 13px; font-weight: bold; color: #8c1d50; font-family: sans-serif;">Pijama da Peppa Pig</span>
+                        <span style="color: #8c1d50; border: 1.5px solid #8c1d50; border-radius: 50%; width: 16px; height: 16px; display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: bold; cursor: pointer; font-family: sans-serif;">i</span>
+                    </div>
+                </div>
+
+                <!-- Item 20: Pijama com listras azuis e laranjas -->
+                <div style="background-color: #ffffff; border: 2px solid #8c1d50; border-radius: 12px; padding: 10px; position: relative; display: flex; flex-direction: column; justify-content: space-between; align-items: center; height: 190px; box-sizing: border-box;">
+                    <span style="position: absolute; top: 6px; right: 8px; font-size: 16px; color: #8c1d50; cursor: pointer;">♡</span>
+                    <img src="IMG/Pijama com listras azuis e laranjas.png" alt="Pijama com listras azuis e laranjas" style="max-height: 110px; max-width: 100%; object-fit: contain; margin-top: 10px;">
+                    <div style="width: 100%; display: flex; justify-content: space-between; align-items: flex-end;">
+                        <span style="font-size: 13px; font-weight: bold; color: #8c1d50; font-family: sans-serif;">Pijama com listras azuis e laranjas</span>
+                        <span style="color: #8c1d50; border: 1.5px solid #8c1d50; border-radius: 50%; width: 16px; height: 16px; display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: bold; cursor: pointer; font-family: sans-serif;">i</span>
+                    </div>
+                </div>
+
+                <!-- Item 21: Saia preta -->
+                <div style="background-color: #ffffff; border: 2px solid #8c1d50; border-radius: 12px; padding: 10px; position: relative; display: flex; flex-direction: column; justify-content: space-between; align-items: center; height: 190px; box-sizing: border-box;">
+                    <span style="position: absolute; top: 6px; right: 8px; font-size: 16px; color: #8c1d50; cursor: pointer;">♡</span>
+                    <img src="IMG/Saia preta.png" alt="Saia preta" style="max-height: 110px; max-width: 100%; object-fit: contain; margin-top: 10px;">
+                    <div style="width: 100%; display: flex; justify-content: space-between; align-items: flex-end;">
+                        <span style="font-size: 13px; font-weight: bold; color: #8c1d50; font-family: sans-serif;">Saia preta</span>
+                        <span style="color: #8c1d50; border: 1.5px solid #8c1d50; border-radius: 50%; width: 16px; height: 16px; display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: bold; cursor: pointer; font-family: sans-serif;">i</span>
+                    </div>
+                </div>
+
+                <!-- Item 22: Salto alto vermelho brilhante -->
+                <div style="background-color: #ffffff; border: 2px solid #8c1d50; border-radius: 12px; padding: 10px; position: relative; display: flex; flex-direction: column; justify-content: space-between; align-items: center; height: 190px; box-sizing: border-box;">
+                    <span style="position: absolute; top: 6px; right: 8px; font-size: 16px; color: #8c1d50; cursor: pointer;">♡</span>
+                    <img src="IMG/Salto alto vermelho brilhante.png" alt="Salto alto vermelho brilhante" style="max-height: 110px; max-width: 100%; object-fit: contain; margin-top: 10px;">
+                    <div style="width: 100%; display: flex; justify-content: space-between; align-items: flex-end;">
+                        <span style="font-size: 13px; font-weight: bold; color: #8c1d50; font-family: sans-serif;">Salto alto vermelho brilhante</span>
+                        <span style="color: #8c1d50; border: 1.5px solid #8c1d50; border-radius: 50%; width: 16px; height: 16px; display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: bold; cursor: pointer; font-family: sans-serif;">i</span>
+                    </div>
+                </div>
+
+                <!-- Item 23: Jaqueta preta de couro -->
+                <div style="background-color: #ffffff; border: 2px solid #8c1d50; border-radius: 12px; padding: 10px; position: relative; display: flex; flex-direction: column; justify-content: space-between; align-items: center; height: 190px; box-sizing: border-box;">
+                    <span style="position: absolute; top: 6px; right: 8px; font-size: 16px; color: #8c1d50; cursor: pointer;">♡</span>
+                    <img src="IMG/Jaqueta preta de couro.png" alt="Jaqueta preta de couro" style="max-height: 110px; max-width: 100%; object-fit: contain; margin-top: 10px;">
+                    <div style="width: 100%; display: flex; justify-content: space-between; align-items: flex-end;">
+                        <span style="font-size: 13px; font-weight: bold; color: #8c1d50; font-family: sans-serif;">Jaqueta preta de couro</span>
+                        <span style="color: #8c1d50; border: 1.5px solid #8c1d50; border-radius: 50%; width: 16px; height: 16px; display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: bold; cursor: pointer; font-family: sans-serif;">i</span>
+                    </div>
+                </div>
+
+                <!-- Item 24: Botas vermelhas de cano alto -->
+                <div style="background-color: #ffffff; border: 2px solid #8c1d50; border-radius: 12px; padding: 10px; position: relative; display: flex; flex-direction: column; justify-content: space-between; align-items: center; height: 190px; box-sizing: border-box;">
+                    <span style="position: absolute; top: 6px; right: 8px; font-size: 16px; color: #8c1d50; cursor: pointer;">♡</span>
+                    <img src="IMG/Botas vermelhas de cano alto.png" alt="Botas vermelhas de cano alto" style="max-height: 110px; max-width: 100%; object-fit: contain; margin-top: 10px;">
+                    <div style="width: 100%; display: flex; justify-content: space-between; align-items: flex-end;">
+                        <span style="font-size: 13px; font-weight: bold; color: #8c1d50; font-family: sans-serif;">Botas vermelhas de cano alto</span>
+                        <span style="color: #8c1d50; border: 1.5px solid #8c1d50; border-radius: 50%; width: 16px; height: 16px; display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: bold; cursor: pointer; font-family: sans-serif;">i</span>
+                    </div>
+                </div>
+
+                <!-- Item 25: Salto alto preto com detalhes prateados -->
+                <div style="background-color: #ffffff; border: 2px solid #8c1d50; border-radius: 12px; padding: 10px; position: relative; display: flex; flex-direction: column; justify-content: space-between; align-items: center; height: 190px; box-sizing: border-box;">
+                    <span style="position: absolute; top: 6px; right: 8px; font-size: 16px; color: #8c1d50; cursor: pointer;">♡</span>
+                    <img src="IMG/Salto alto preto com detalhes prateados.png" alt="Salto alto preto com detalhes prateados" style="max-height: 110px; max-width: 100%; object-fit: contain; margin-top: 10px;">
+                    <div style="width: 100%; display: flex; justify-content: space-between; align-items: flex-end;">
+                        <span style="font-size: 13px; font-weight: bold; color: #8c1d50; font-family: sans-serif;">Salto alto preto com detalhes prateados</span>
+                        <span style="color: #8c1d50; border: 1.5px solid #8c1d50; border-radius: 50%; width: 16px; height: 16px; display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: bold; cursor: pointer; font-family: sans-serif;">i</span>
+                    </div>
+                </div>
+
+                <!-- Item 26: All Star amarelo -->
+                <div style="background-color: #ffffff; border: 2px solid #8c1d50; border-radius: 12px; padding: 10px; position: relative; display: flex; flex-direction: column; justify-content: space-between; align-items: center; height: 190px; box-sizing: border-box;">
+                    <span style="position: absolute; top: 6px; right: 8px; font-size: 16px; color: #8c1d50; cursor: pointer;">♡</span>
+                    <img src="IMG/All Star amarelo.png" alt="All Star amarelo" style="max-height: 110px; max-width: 100%; object-fit: contain; margin-top: 10px;">
+                    <div style="width: 100%; display: flex; justify-content: space-between; align-items: flex-end;">
+                        <span style="font-size: 13px; font-weight: bold; color: #8c1d50; font-family: sans-serif;">All Star amarelo</span>
+                        <span style="color: #8c1d50; border: 1.5px solid #8c1d50; border-radius: 50%; width: 16px; height: 16px; display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: bold; cursor: pointer; font-family: sans-serif;">i</span>
+                    </div>
+                </div>
+
+                <!-- Item 27: Bolsa e carteira marsala -->
+                <div style="background-color: #ffffff; border: 2px solid #8c1d50; border-radius: 12px; padding: 10px; position: relative; display: flex; flex-direction: column; justify-content: space-between; align-items: center; height: 190px; box-sizing: border-box;">
+                    <span style="position: absolute; top: 6px; right: 8px; font-size: 16px; color: #8c1d50; cursor: pointer;">♡</span>
+                    <img src="IMG/Bolsa e carteira marsala.png" alt="Bolsa e carteira marsala" style="max-height: 110px; max-width: 100%; object-fit: contain; margin-top: 10px;">
+                    <div style="width: 100%; display: flex; justify-content: space-between; align-items: flex-end;">
+                        <span style="font-size: 13px; font-weight: bold; color: #8c1d50; font-family: sans-serif;">Bolsa e carteira marsala</span>
+                        <span style="color: #8c1d50; border: 1.5px solid #8c1d50; border-radius: 50%; width: 16px; height: 16px; display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: bold; cursor: pointer; font-family: sans-serif;">i</span>
+                    </div>
+                </div>
+
+                <!-- Item 28: Relógio branco e dourado -->
+                <div style="background-color: #ffffff; border: 2px solid #8c1d50; border-radius: 12px; padding: 10px; position: relative; display: flex; flex-direction: column; justify-content: space-between; align-items: center; height: 190px; box-sizing: border-box;">
+                    <span style="position: absolute; top: 6px; right: 8px; font-size: 16px; color: #8c1d50; cursor: pointer;">♡</span>
+                    <img src="IMG/Relógio branco e dourado.png" alt="Relógio branco e dourado" style="max-height: 110px; max-width: 100%; object-fit: contain; margin-top: 10px;">
+                    <div style="width: 100%; display: flex; justify-content: space-between; align-items: flex-end;">
+                        <span style="font-size: 13px; font-weight: bold; color: #8c1d50; font-family: sans-serif;">Relógio branco e dourado</span>
+                        <span style="color: #8c1d50; border: 1.5px solid #8c1d50; border-radius: 50%; width: 16px; height: 16px; display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: bold; cursor: pointer; font-family: sans-serif;">i</span>
+                    </div>
+                </div>
+
+                <!-- Item 29: Vestido preto estilo bailarina -->
+                <div style="background-color: #ffffff; border: 2px solid #8c1d50; border-radius: 12px; padding: 10px; position: relative; display: flex; flex-direction: column; justify-content: space-between; align-items: center; height: 190px; box-sizing: border-box;">
+                    <span style="position: absolute; top: 6px; right: 8px; font-size: 16px; color: #8c1d50; cursor: pointer;">♡</span>
+                    <img src="IMG/Vestido preto estilo bailarina.png" alt="Vestido preto estilo bailarina" style="max-height: 110px; max-width: 100%; object-fit: contain; margin-top: 10px;">
+                    <div style="width: 100%; display: flex; justify-content: space-between; align-items: flex-end;">
+                        <span style="font-size: 13px; font-weight: bold; color: #8c1d50; font-family: sans-serif;">Vestido preto estilo bailarina</span>
+                        <span style="color: #8c1d50; border: 1.5px solid #8c1d50; border-radius: 50%; width: 16px; height: 16px; display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: bold; cursor: pointer; font-family: sans-serif;">i</span>
+                    </div>
+                </div>
+
+                <!-- Item 30: All Star rosa escuro -->
+                <div style="background-color: #ffffff; border: 2px solid #8c1d50; border-radius: 12px; padding: 10px; position: relative; display: flex; flex-direction: column; justify-content: space-between; align-items: center; height: 190px; box-sizing: border-box;">
+                    <span style="position: absolute; top: 6px; right: 8px; font-size: 16px; color: #8c1d50; cursor: pointer;">♡</span>
+                    <img src="IMG/All Star rosa escuro.png" alt="All Star rosa escuro" style="max-height: 110px; max-width: 100%; object-fit: contain; margin-top: 10px;">
+                    <div style="width: 100%; display: flex; justify-content: space-between; align-items: flex-end;">
+                        <span style="font-size: 13px; font-weight: bold; color: #8c1d50; font-family: sans-serif;">All Star rosa escuro</span>
+                        <span style="color: #8c1d50; border: 1.5px solid #8c1d50; border-radius: 50%; width: 16px; height: 16px; display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: bold; cursor: pointer; font-family: sans-serif;">i</span>
+                    </div>
+                </div>
+
+                <!-- Item 31: Pijama com pequenas flores vermelhas -->
+                <div style="background-color: #ffffff; border: 2px solid #8c1d50; border-radius: 12px; padding: 10px; position: relative; display: flex; flex-direction: column; justify-content: space-between; align-items: center; height: 190px; box-sizing: border-box;">
+                    <span style="position: absolute; top: 6px; right: 8px; font-size: 16px; color: #8c1d50; cursor: pointer;">♡</span>
+                    <img src="IMG/Pijama com pequenas flores vermelhas.png" alt="Pijama com pequenas flores vermelhas" style="max-height: 110px; max-width: 100%; object-fit: contain; margin-top: 10px;">
+                    <div style="width: 100%; display: flex; justify-content: space-between; align-items: flex-end;">
+                        <span style="font-size: 13px; font-weight: bold; color: #8c1d50; font-family: sans-serif;">Pijama com pequenas flores vermelhas</span>
+                        <span style="color: #8c1d50; border: 1.5px solid #8c1d50; border-radius: 50%; width: 16px; height: 16px; display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: bold; cursor: pointer; font-family: sans-serif;">i</span>
+                    </div>
+                </div>
+
+                <!-- Item 32: Bolsa de couro marrom com detalhes dourados -->
+                <div style="background-color: #ffffff; border: 2px solid #8c1d50; border-radius: 12px; padding: 10px; position: relative; display: flex; flex-direction: column; justify-content: space-between; align-items: center; height: 190px; box-sizing: border-box;">
+                    <span style="position: absolute; top: 6px; right: 8px; font-size: 16px; color: #8c1d50; cursor: pointer;">♡</span>
+                    <img src="IMG/Bolsa de couro marrom com detalhes dourados.png" alt="Bolsa de couro marrom com detalhes dourados" style="max-height: 110px; max-width: 100%; object-fit: contain; margin-top: 10px;">
+                    <div style="width: 100%; display: flex; justify-content: space-between; align-items: flex-end;">
+                        <span style="font-size: 13px; font-weight: bold; color: #8c1d50; font-family: sans-serif;">Bolsa de couro marrom com detalhes dourados</span>
+                        <span style="color: #8c1d50; border: 1.5px solid #8c1d50; border-radius: 50%; width: 16px; height: 16px; display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: bold; cursor: pointer; font-family: sans-serif;">i</span>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+</body>
+
+</html>
+```

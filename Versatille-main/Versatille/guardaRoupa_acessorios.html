@@ -1,0 +1,1272 @@
+
+<!DOCTYPE html>
+<html lang="pt-bt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guarda-Roupa Versatille</title>
+
+</head>
+
+<body style="
+    margin: 0;
+    padding: 0;
+    background-image: url('fundo_estrelado.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;">
+
+    <!--Barra de navegação-->
+    <header>
+        <nav style="background-color: #AF2767;
+        height: 5vh;
+        color: #fff;
+        padding: 1vh;">
+
+            <div style="display: grid;
+            grid-template-columns: auto auto auto auto;
+            align-items: center;
+            transform: translateY(-15px);" >
+
+                <!--Links de navegação-->
+                <a style="text-decoration: none;
+                color: #ffff;
+                margin-left: 50px;" href="index.html">
+                    <h1>VERSATILLE</h1>
+                </a>
+
+                <a style="text-decoration: none;
+                color: #ffff;
+                margin-left: 50px;" href="sobre_versatille.html">
+                    Sobre o Versatille
+                </a>
+
+                <a style="text-decoration: none;
+                color: #ffff;
+                margin-left: 50px;" href="guarda-roupa.html">
+                    Guarda-Roupa
+                </a>
+
+                <!--Botão de entrar-->
+                <a style="border-radius: 10px;
+                background-color: #FFD8D3;
+                max-width: 15vh;
+                padding: 0.5vh;
+                text-align: center;
+                color: black;
+                text-decoration: none;" href="login.html" id="entrar">
+                    Entrar
+                </a>
+
+            </div>
+
+        </nav>
+    </header>
+
+    <!-- Conteúdo Principal / Painel Central -->
+    <main style="max-width: 1800px;
+    margin: 30px auto;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.4);">
+
+        <!-- Barra de Ferramentas / Categorias e Busca -->
+        <div style="background-color: #9f245b;
+        padding: 10px 15px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;">
+
+            <!-- Abas (Tudo/ Roupas / Acessórios) -->
+            <div style="display: flex; gap: 5px;">
+
+                <a href="guarda-roupa.html">
+                    <button style="
+                        background-color: #f7d2e6;
+                        color: #a82e63;
+                        border: none;
+                        padding: 12px 30px;
+                        font-weight: bold;
+                        border-radius: 4px;
+                        cursor: pointer;">
+                        Tudo
+                    </button>
+                </a>
+
+                <a href="guardaRoupa_roupas.html">
+                    <button style="
+                        background-color: #f7d2e6;
+                        color: #a82e63;
+                        border: none;
+                        padding: 12px 30px;
+                        font-weight: bold;
+                        border-radius: 4px;
+                        cursor: pointer;">
+                        Roupas
+                    </button>
+                </a>
+
+                <a href="#">
+                    <button style="
+                        background-color: #a82e63;
+                        color: #fff;
+                        border: none;
+                        padding: 12px 30px;
+                        font-weight: bold;
+                        border-radius: 4px;
+                        cursor: pointer;">
+                        Acessórios
+                    </button>
+                </a>
+
+            </div>
+
+            <button style="background-color: #f7d2e6;
+                color: #8c1d50;
+                border: none;
+                padding: 20px 35px;
+                font-weight: bold;
+                border-radius: 0px 0px 0 0;
+                cursor: pointer;">
+                + Adicionar Peças
+            </button>
+
+            <!-- Campo de Busca -->
+            <div style="display: flex;
+            align-items: center;
+            background-color: white;
+            border-radius: 3px;
+            overflow: hidden;
+            border: 1px solid #ccc;">
+
+                <input type="text"
+                    placeholder="Buscar peça..."
+                    style="border: none;
+                    padding: 6px 12px;
+                    outline: none;
+                    width: 200px;
+                    font-size: 14px;">
+
+                <button style="background-color: #5c1437;
+                    color: white;
+                    border: none;
+                    padding: 6px 10px;
+                    cursor: pointer;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;">
+                    🔍
+                </button>
+
+            </div>
+
+        </div>
+
+        <!-- Área de Conteúdo Rosa Claro -->
+        <section style="background-color: #fce1f4;
+        padding: 20px;
+        box-sizing: border-box;">
+
+            <!-- Grid de Roupas -->
+            <div style="display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 15px;">
+
+                <!-- Item 3: Cachecol bege com detalhes laranjas e azuis -->
+                <div style="background-color: #ffffff;
+                border: 2px solid #8c1d50;
+                border-radius: 12px;
+                padding: 10px;
+                position: relative;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+                height: 190px;
+                box-sizing: border-box;">
+
+                    <span style="position: absolute;
+                    top: 6px;
+                    right: 8px;
+                    font-size: 16px;
+                    color: #8c1d50;
+                    cursor: pointer;">
+                        ♡
+                    </span>
+
+                    <img src="IMG/Cachecol bege com detalhes laranjas e azuis.png"
+                        alt="Cachecol bege com detalhes laranjas e azuis"
+                        style="max-height: 110px;
+                        max-width: 100%;
+                        object-fit: contain;
+                        margin-top: 10px;">
+
+                    <div style="width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: flex-end;">
+
+                        <span style="font-size: 13px;
+                        font-weight: bold;
+                        color: #8c1d50;
+                        font-family: sans-serif;">
+                            Cachecol bege com detalhes laranjas e azuis
+                        </span>
+
+                        <!-- Informações da peça -->
+                        <details style="position: relative;
+                        display: inline-block;">
+
+                            <summary style="
+                            list-style: none;
+                            color: #8c1d50;
+                            border: 1.5px solid #8c1d50;
+                            border-radius: 50%;
+                            width: 16px;
+                            height: 16px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            font-size: 11px;
+                            font-weight: bold;
+                            cursor: pointer;
+                            font-family: sans-serif;">
+                                i
+                            </summary>
+
+                            <table style="
+                            position: absolute;
+                            bottom: 22px;
+                            right: 0;
+                            background-color: #fff;
+                            border: 1.5px solid #8c1d50;
+                            border-radius: 6px;
+                            border-collapse: collapse;
+                            font-size: 11px;
+                            color: #333;
+                            z-index: 10;
+                            min-width: 160px;
+                            box-shadow: 0 2px 8px rgba(0,0,0,0.2);">
+
+                                <tr>
+                                    <td style="padding: 4px 8px;
+                                    border-bottom: 1px solid #eee;
+                                    font-weight: bold;
+                                    color: #8c1d50;">
+                                        Tipo
+                                    </td>
+                                    <td style="padding: 4px 8px;
+                                    border-bottom: 1px solid #eee;">
+                                        Cachecol
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td style="padding: 4px 8px;
+                                    border-bottom: 1px solid #eee;
+                                    font-weight: bold;
+                                    color: #8c1d50;">
+                                        Cor
+                                    </td>
+                                    <td style="padding: 4px 8px;
+                                    border-bottom: 1px solid #eee;">
+                                        Bege, laranja e azul
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td style="padding: 4px 8px;
+                                    border-bottom: 1px solid #eee;
+                                    font-weight: bold;
+                                    color: #8c1d50;">
+                                        Tamanho
+                                    </td>
+                                    <td style="padding: 4px 8px;
+                                    border-bottom: 1px solid #eee;">
+                                        Único
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td style="padding: 4px 8px;
+                                    font-weight: bold;
+                                    color: #8c1d50;">
+                                        Material
+                                    </td>
+                                    <td style="padding: 4px 8px;">
+                                        Lã
+                                    </td>
+                                </tr>
+
+                            </table>
+
+                        </details>
+
+                    </div>
+                </div>
+
+
+                <!-- Item 4: Colar de pérolas -->
+                <div style="background-color: #ffffff;
+                border: 2px solid #8c1d50;
+                border-radius: 12px;
+                padding: 10px;
+                position: relative;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+                height: 190px;
+                box-sizing: border-box;">
+
+                    <span style="position: absolute;
+                    top: 6px;
+                    right: 8px;
+                    font-size: 16px;
+                    color: #8c1d50;
+                    cursor: pointer;">
+                        ♡
+                    </span>
+
+                    <img src="IMG/Colar de pérolas.png"
+                        alt="Colar de pérolas"
+                        style="max-height: 110px;
+                        max-width: 100%;
+                        object-fit: contain;
+                        margin-top: 10px;">
+
+                    <div style="width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: flex-end;">
+
+                        <span style="font-size: 13px;
+                        font-weight: bold;
+                        color: #8c1d50;
+                        font-family: sans-serif;">
+                            Colar de pérolas
+                        </span>
+
+                        <details style="position: relative;
+                        display: inline-block;">
+
+                            <summary style="
+                            list-style: none;
+                            color: #8c1d50;
+                            border: 1.5px solid #8c1d50;
+                            border-radius: 50%;
+                            width: 16px;
+                            height: 16px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            font-size: 11px;
+                            font-weight: bold;
+                            cursor: pointer;
+                            font-family: sans-serif;">
+                                i
+                            </summary>
+
+                            <table style="
+                            position: absolute;
+                            bottom: 22px;
+                            right: 0;
+                            background-color: #fff;
+                            border: 1.5px solid #8c1d50;
+                            border-radius: 6px;
+                            border-collapse: collapse;
+                            font-size: 11px;
+                            color: #333;
+                            z-index: 10;
+                            min-width: 160px;
+                            box-shadow: 0 2px 8px rgba(0,0,0,0.2);">
+
+                                <tr>
+                                    <td style="padding: 4px 8px;
+                                    border-bottom: 1px solid #eee;
+                                    font-weight: bold;
+                                    color: #8c1d50;">
+                                        Tipo
+                                    </td>
+                                    <td style="padding: 4px 8px;
+                                    border-bottom: 1px solid #eee;">
+                                        Colar
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td style="padding: 4px 8px;
+                                    border-bottom: 1px solid #eee;
+                                    font-weight: bold;
+                                    color: #8c1d50;">
+                                        Cor
+                                    </td>
+                                    <td style="padding: 4px 8px;
+                                    border-bottom: 1px solid #eee;">
+                                        Branco perolado
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td style="padding: 4px 8px;
+                                    border-bottom: 1px solid #eee;
+                                    font-weight: bold;
+                                    color: #8c1d50;">
+                                        Tamanho
+                                    </td>
+                                    <td style="padding: 4px 8px;
+                                    border-bottom: 1px solid #eee;">
+                                        Único
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td style="padding: 4px 8px;
+                                    font-weight: bold;
+                                    color: #8c1d50;">
+                                        Material
+                                    </td>
+                                    <td style="padding: 4px 8px;">
+                                        Pérolas
+                                    </td>
+                                </tr>
+
+                            </table>
+
+                        </details>
+
+                    </div>
+                </div>
+
+
+                <!-- Item 5: Chapéu de bruxa -->
+                <div style="background-color: #ffffff;
+                border: 2px solid #8c1d50;
+                border-radius: 12px;
+                padding: 10px;
+                position: relative;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+                height: 190px;
+                box-sizing: border-box;">
+
+                    <span style="position: absolute;
+                    top: 6px;
+                    right: 8px;
+                    font-size: 16px;
+                    color: #8c1d50;
+                    cursor: pointer;">
+                        ♡
+                    </span>
+
+                    <img src="IMG/Chapéu de bruxa.png"
+                        alt="Chapéu de bruxa"
+                        style="max-height: 110px;
+                        max-width: 100%;
+                        object-fit: contain;
+                        margin-top: 10px;">
+
+                    <div style="width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: flex-end;">
+
+                        <span style="font-size: 13px;
+                        font-weight: bold;
+                        color: #8c1d50;
+                        font-family: sans-serif;">
+                            Chapéu de bruxa
+                        </span>
+
+                        <details style="position: relative;
+                        display: inline-block;">
+
+                            <summary style="
+                            list-style: none;
+                            color: #8c1d50;
+                            border: 1.5px solid #8c1d50;
+                            border-radius: 50%;
+                            width: 16px;
+                            height: 16px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            font-size: 11px;
+                            font-weight: bold;
+                            cursor: pointer;
+                            font-family: sans-serif;">
+                                i
+                            </summary>
+
+                            <table style="
+                            position: absolute;
+                            bottom: 22px;
+                            right: 0;
+                            background-color: #fff;
+                            border: 1.5px solid #8c1d50;
+                            border-radius: 6px;
+                            border-collapse: collapse;
+                            font-size: 11px;
+                            color: #333;
+                            z-index: 10;
+                            min-width: 160px;
+                            box-shadow: 0 2px 8px rgba(0,0,0,0.2);">
+
+                                <tr>
+                                    <td style="padding: 4px 8px;
+                                    border-bottom: 1px solid #eee;
+                                    font-weight: bold;
+                                    color: #8c1d50;">
+                                        Tipo
+                                    </td>
+                                    <td style="padding: 4px 8px;
+                                    border-bottom: 1px solid #eee;">
+                                        Chapéu
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td style="padding: 4px 8px;
+                                    border-bottom: 1px solid #eee;
+                                    font-weight: bold;
+                                    color: #8c1d50;">
+                                        Cor
+                                    </td>
+                                    <td style="padding: 4px 8px;
+                                    border-bottom: 1px solid #eee;">
+                                        Preto
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td style="padding: 4px 8px;
+                                    border-bottom: 1px solid #eee;
+                                    font-weight: bold;
+                                    color: #8c1d50;">
+                                        Tamanho
+                                    </td>
+                                    <td style="padding: 4px 8px;
+                                    border-bottom: 1px solid #eee;">
+                                        Único
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td style="padding: 4px 8px;
+                                    font-weight: bold;
+                                    color: #8c1d50;">
+                                        Material
+                                    </td>
+                                    <td style="padding: 4px 8px;">
+                                        Feltro
+                                    </td>
+                                </tr>
+
+                            </table>
+
+                        </details>
+
+                    </div>
+                </div>
+
+
+                <!-- Item 12: Bolsa rosa -->
+                <div style="background-color: #ffffff;
+                border: 2px solid #8c1d50;
+                border-radius: 12px;
+                padding: 10px;
+                position: relative;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+                height: 190px;
+                box-sizing: border-box;">
+
+                    <span style="position: absolute;
+                    top: 6px;
+                    right: 8px;
+                    font-size: 16px;
+                    color: #8c1d50;
+                    cursor: pointer;">
+                        ♡
+                    </span>
+
+                    <img src="IMG/Bolsa rosa.png"
+                        alt="Bolsa rosa"
+                        style="max-height: 110px;
+                        max-width: 100%;
+                        object-fit: contain;
+                        margin-top: 10px;">
+
+                    <div style="width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: flex-end;">
+
+                        <span style="font-size: 13px;
+                        font-weight: bold;
+                        color: #8c1d50;
+                        font-family: sans-serif;">
+                            Bolsa rosa
+                        </span>
+
+                        <details style="position: relative;
+                        display: inline-block;">
+
+                            <summary style="
+                            list-style: none;
+                            color: #8c1d50;
+                            border: 1.5px solid #8c1d50;
+                            border-radius: 50%;
+                            width: 16px;
+                            height: 16px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            font-size: 11px;
+                            font-weight: bold;
+                            cursor: pointer;
+                            font-family: sans-serif;">
+                                i
+                            </summary>
+
+                            <table style="
+                            position: absolute;
+                            bottom: 22px;
+                            right: 0;
+                            background-color: #fff;
+                            border: 1.5px solid #8c1d50;
+                            border-radius: 6px;
+                            border-collapse: collapse;
+                            font-size: 11px;
+                            color: #333;
+                            z-index: 10;
+                            min-width: 160px;
+                            box-shadow: 0 2px 8px rgba(0,0,0,0.2);">
+
+                                <tr>
+                                    <td style="padding: 4px 8px;
+                                    border-bottom: 1px solid #eee;
+                                    font-weight: bold;
+                                    color: #8c1d50;">
+                                        Tipo
+                                    </td>
+                                    <td style="padding: 4px 8px;
+                                    border-bottom: 1px solid #eee;">
+                                        Bolsa
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td style="padding: 4px 8px;
+                                    border-bottom: 1px solid #eee;
+                                    font-weight: bold;
+                                    color: #8c1d50;">
+                                        Cor
+                                    </td>
+                                    <td style="padding: 4px 8px;
+                                    border-bottom: 1px solid #eee;">
+                                        Rosa
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td style="padding: 4px 8px;
+                                    border-bottom: 1px solid #eee;
+                                    font-weight: bold;
+                                    color: #8c1d50;">
+                                        Tamanho
+                                    </td>
+                                    <td style="padding: 4px 8px;
+                                    border-bottom: 1px solid #eee;">
+                                        Único
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td style="padding: 4px 8px;
+                                    font-weight: bold;
+                                    color: #8c1d50;">
+                                        Material
+                                    </td>
+                                    <td style="padding: 4px 8px;">
+                                        Sintético
+                                    </td>
+                                </tr>
+
+                            </table>
+
+                        </details>
+
+                    </div>
+                </div>
+
+
+                <!-- Item 13: Chapéu de festa rosa -->
+                <div style="background-color: #ffffff;
+                border: 2px solid #8c1d50;
+                border-radius: 12px;
+                padding: 10px;
+                position: relative;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+                height: 190px;
+                box-sizing: border-box;">
+
+                    <span style="position: absolute;
+                    top: 6px;
+                    right: 8px;
+                    font-size: 16px;
+                    color: #8c1d50;
+                    cursor: pointer;">
+                        ♡
+                    </span>
+
+                    <img src="IMG/Chapéu de festa rosa.png"
+                        alt="Chapéu de festa rosa"
+                        style="max-height: 110px;
+                        max-width: 100%;
+                        object-fit: contain;
+                        margin-top: 10px;">
+
+                    <div style="width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: flex-end;">
+
+                        <span style="font-size: 13px;
+                        font-weight: bold;
+                        color: #8c1d50;
+                        font-family: sans-serif;">
+                            Chapéu de festa rosa
+                        </span>
+
+                        <details style="position: relative;
+                        display: inline-block;">
+
+                            <summary style="
+                            list-style: none;
+                            color: #8c1d50;
+                            border: 1.5px solid #8c1d50;
+                            border-radius: 50%;
+                            width: 16px;
+                            height: 16px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            font-size: 11px;
+                            font-weight: bold;
+                            cursor: pointer;
+                            font-family: sans-serif;">
+                                i
+                            </summary>
+
+                            <table style="
+                            position: absolute;
+                            bottom: 22px;
+                            right: 0;
+                            background-color: #fff;
+                            border: 1.5px solid #8c1d50;
+                            border-radius: 6px;
+                            border-collapse: collapse;
+                            font-size: 11px;
+                            color: #333;
+                            z-index: 10;
+                            min-width: 160px;
+                            box-shadow: 0 2px 8px rgba(0,0,0,0.2);">
+
+                                <tr>
+                                    <td style="padding: 4px 8px;
+                                    border-bottom: 1px solid #eee;
+                                    font-weight: bold;
+                                    color: #8c1d50;">
+                                        Tipo
+                                    </td>
+                                    <td style="padding: 4px 8px;
+                                    border-bottom: 1px solid #eee;">
+                                        Chapéu de festa
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td style="padding: 4px 8px;
+                                    border-bottom: 1px solid #eee;
+                                    font-weight: bold;
+                                    color: #8c1d50;">
+                                        Cor
+                                    </td>
+                                    <td style="padding: 4px 8px;
+                                    border-bottom: 1px solid #eee;">
+                                        Rosa
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td style="padding: 4px 8px;
+                                    border-bottom: 1px solid #eee;
+                                    font-weight: bold;
+                                    color: #8c1d50;">
+                                        Tamanho
+                                    </td>
+                                    <td style="padding: 4px 8px;
+                                    border-bottom: 1px solid #eee;">
+                                        Único
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td style="padding: 4px 8px;
+                                    font-weight: bold;
+                                    color: #8c1d50;">
+                                        Material
+                                    </td>
+                                    <td style="padding: 4px 8px;">
+                                        Cartolina
+                                    </td>
+                                </tr>
+
+                            </table>
+
+                        </details>
+
+                    </div>
+                </div>
+
+
+                <!-- Item 27: Bolsa e carteira marsala -->
+                <div style="background-color: #ffffff;
+                border: 2px solid #8c1d50;
+                border-radius: 12px;
+                padding: 10px;
+                position: relative;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+                height: 190px;
+                box-sizing: border-box;">
+
+                    <span style="position: absolute;
+                    top: 6px;
+                    right: 8px;
+                    font-size: 16px;
+                    color: #8c1d50;
+                    cursor: pointer;">
+                        ♡
+                    </span>
+
+                    <img src="IMG/Bolsa e carteira marsala.png"
+                        alt="Bolsa e carteira marsala"
+                        style="max-height: 110px;
+                        max-width: 100%;
+                        object-fit: contain;
+                        margin-top: 10px;">
+
+                    <div style="width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: flex-end;">
+
+                        <span style="font-size: 13px;
+                        font-weight: bold;
+                        color: #8c1d50;
+                        font-family: sans-serif;">
+                            Bolsa e carteira marsala
+                        </span>
+
+                        <details style="position: relative;
+                        display: inline-block;">
+
+                            <summary style="
+                            list-style: none;
+                            color: #8c1d50;
+                            border: 1.5px solid #8c1d50;
+                            border-radius: 50%;
+                            width: 16px;
+                            height: 16px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            font-size: 11px;
+                            font-weight: bold;
+                            cursor: pointer;
+                            font-family: sans-serif;">
+                                i
+                            </summary>
+
+                            <table style="
+                            position: absolute;
+                            bottom: 22px;
+                            right: 0;
+                            background-color: #fff;
+                            border: 1.5px solid #8c1d50;
+                            border-radius: 6px;
+                            border-collapse: collapse;
+                            font-size: 11px;
+                            color: #333;
+                            z-index: 10;
+                            min-width: 160px;
+                            box-shadow: 0 2px 8px rgba(0,0,0,0.2);">
+
+                                <tr>
+                                    <td style="padding: 4px 8px;
+                                    border-bottom: 1px solid #eee;
+                                    font-weight: bold;
+                                    color: #8c1d50;">
+                                        Tipo
+                                    </td>
+                                    <td style="padding: 4px 8px;
+                                    border-bottom: 1px solid #eee;">
+                                        Bolsa e carteira
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td style="padding: 4px 8px;
+                                    border-bottom: 1px solid #eee;
+                                    font-weight: bold;
+                                    color: #8c1d50;">
+                                        Cor
+                                    </td>
+                                    <td style="padding: 4px 8px;
+                                    border-bottom: 1px solid #eee;">
+                                        Marsala
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td style="padding: 4px 8px;
+                                    border-bottom: 1px solid #eee;
+                                    font-weight: bold;
+                                    color: #8c1d50;">
+                                        Tamanho
+                                    </td>
+                                    <td style="padding: 4px 8px;
+                                    border-bottom: 1px solid #eee;">
+                                        Único
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td style="padding: 4px 8px;
+                                    font-weight: bold;
+                                    color: #8c1d50;">
+                                        Material
+                                    </td>
+                                    <td style="padding: 4px 8px;">
+                                        Sintético
+                                    </td>
+                                </tr>
+
+                            </table>
+
+                        </details>
+
+                    </div>
+                </div>
+
+
+                <!-- Item 28: Relógio branco e dourado -->
+                <div style="background-color: #ffffff;
+                border: 2px solid #8c1d50;
+                border-radius: 12px;
+                padding: 10px;
+                position: relative;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+                height: 190px;
+                box-sizing: border-box;">
+
+                    <span style="position: absolute;
+                    top: 6px;
+                    right: 8px;
+                    font-size: 16px;
+                    color: #8c1d50;
+                    cursor: pointer;">
+                        ♡
+                    </span>
+
+                    <img src="IMG/Relógio branco e dourado.png"
+                        alt="Relógio branco e dourado"
+                        style="max-height: 110px;
+                        max-width: 100%;
+                        object-fit: contain;
+                        margin-top: 10px;">
+
+                    <div style="width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: flex-end;">
+
+                        <span style="font-size: 13px;
+                        font-weight: bold;
+                        color: #8c1d50;
+                        font-family: sans-serif;">
+                            Relógio branco e dourado
+                        </span>
+
+                        <details style="position: relative;
+                        display: inline-block;">
+
+                            <summary style="
+                            list-style: none;
+                            color: #8c1d50;
+                            border: 1.5px solid #8c1d50;
+                            border-radius: 50%;
+                            width: 16px;
+                            height: 16px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            font-size: 11px;
+                            font-weight: bold;
+                            cursor: pointer;
+                            font-family: sans-serif;">
+                                i
+                            </summary>
+
+                            <table style="
+                            position: absolute;
+                            bottom: 22px;
+                            right: 0;
+                            background-color: #fff;
+                            border: 1.5px solid #8c1d50;
+                            border-radius: 6px;
+                            border-collapse: collapse;
+                            font-size: 11px;
+                            color: #333;
+                            z-index: 10;
+                            min-width: 160px;
+                            box-shadow: 0 2px 8px rgba(0,0,0,0.2);">
+
+                                <tr>
+                                    <td style="padding: 4px 8px;
+                                    border-bottom: 1px solid #eee;
+                                    font-weight: bold;
+                                    color: #8c1d50;">
+                                        Tipo
+                                    </td>
+                                    <td style="padding: 4px 8px;
+                                    border-bottom: 1px solid #eee;">
+                                        Relógio
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td style="padding: 4px 8px;
+                                    border-bottom: 1px solid #eee;
+                                    font-weight: bold;
+                                    color: #8c1d50;">
+                                        Cor
+                                    </td>
+                                    <td style="padding: 4px 8px;
+                                    border-bottom: 1px solid #eee;">
+                                        Branco e dourado
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td style="padding: 4px 8px;
+                                    border-bottom: 1px solid #eee;
+                                    font-weight: bold;
+                                    color: #8c1d50;">
+                                        Tamanho
+                                    </td>
+                                    <td style="padding: 4px 8px;
+                                    border-bottom: 1px solid #eee;">
+                                        Único
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td style="padding: 4px 8px;
+                                    font-weight: bold;
+                                    color: #8c1d50;">
+                                        Material
+                                    </td>
+                                    <td style="padding: 4px 8px;">
+                                        Aço inox
+                                    </td>
+                                </tr>
+
+                            </table>
+
+                        </details>
+
+                    </div>
+                </div>
+
+
+                <!-- Item 32: Bolsa de couro marrom com detalhes dourados -->
+                <div style="background-color: #ffffff;
+                border: 2px solid #8c1d50;
+                border-radius: 12px;
+                padding: 10px;
+                position: relative;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+                height: 190px;
+                box-sizing: border-box;">
+
+                    <span style="position: absolute;
+                    top: 6px;
+                    right: 8px;
+                    font-size: 16px;
+                    color: #8c1d50;
+                    cursor: pointer;">
+                        ♡
+                    </span>
+
+                    <img src="IMG/Bolsa de couro marrom com detalhes dourados.png"
+                        alt="Bolsa de couro marrom com detalhes dourados"
+                        style="max-height: 110px;
+                        max-width: 100%;
+                        object-fit: contain;
+                        margin-top: 10px;">
+
+                    <div style="width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: flex-end;">
+
+                        <span style="font-size: 13px;
+                        font-weight: bold;
+                        color: #8c1d50;
+                        font-family: sans-serif;">
+                            Bolsa de couro marrom com detalhes dourados
+                        </span>
+
+                        <details style="position: relative;
+                        display: inline-block;">
+
+                            <summary style="
+                            list-style: none;
+                            color: #8c1d50;
+                            border: 1.5px solid #8c1d50;
+                            border-radius: 50%;
+                            width: 16px;
+                            height: 16px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            font-size: 11px;
+                            font-weight: bold;
+                            cursor: pointer;
+                            font-family: sans-serif;">
+                                i
+                            </summary>
+
+                            <table style="
+                            position: absolute;
+                            bottom: 22px;
+                            right: 0;
+                            background-color: #fff;
+                            border: 1.5px solid #8c1d50;
+                            border-radius: 6px;
+                            border-collapse: collapse;
+                            font-size: 11px;
+                            color: #333;
+                            z-index: 10;
+                            min-width: 160px;
+                            box-shadow: 0 2px 8px rgba(0,0,0,0.2);">
+
+                                <tr>
+                                    <td style="padding: 4px 8px;
+                                    border-bottom: 1px solid #eee;
+                                    font-weight: bold;
+                                    color: #8c1d50;">
+                                        Tipo
+                                    </td>
+                                    <td style="padding: 4px 8px;
+                                    border-bottom: 1px solid #eee;">
+                                        Bolsa
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td style="padding: 4px 8px;
+                                    border-bottom: 1px solid #eee;
+                                    font-weight: bold;
+                                    color: #8c1d50;">
+                                        Cor
+                                    </td>
+                                    <td style="padding: 4px 8px;
+                                    border-bottom: 1px solid #eee;">
+                                        Marrom e dourado
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td style="padding: 4px 8px;
+                                    border-bottom: 1px solid #eee;
+                                    font-weight: bold;
+                                    color: #8c1d50;">
+                                        Tamanho
+                                    </td>
+                                    <td style="padding: 4px 8px;
+                                    border-bottom: 1px solid #eee;">
+                                        Único
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td style="padding: 4px 8px;
+                                    font-weight: bold;
+                                    color: #8c1d50;">
+                                        Material
+                                    </td>
+                                    <td style="padding: 4px 8px;">
+                                        Couro
+                                    </td>
+                                </tr>
+
+                            </table>
+
+                        </details>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+        <!--Rodapé-->
+    <footer style="    background-color: #AF2767;
+                        margin-top: 20vh;
+                        height: 35vh;">
+
+                <!--Links de navegação-->
+                    <a style="    text-decoration: none;
+                    color: #ffff;
+                    margin-left: 50px;" href="index.html">
+                    <h1 align="center">VERSATILLE</h1> <!--Logo da nav-->
+                </a>
+
+        <!--Adicionando imagem do footer rodape.jpg -->
+        <div style="    display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        margin-top: 5vh;">
+            <img src="IMG/rodape2.png" style="    width: 100%;
+                                                    max-height: 50%;">
+                
+
+    </footer>
+
+</body>
+
+</html>

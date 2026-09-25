@@ -1,0 +1,1386 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guarda-Roupa Versatille</title>
+
+</head>
+
+<body style="
+    margin: 0;
+    padding: 0;
+    background-image: url('fundo_estrelado.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;">
+
+    <!--Barra de navegação-->
+    <header>
+        <nav style="background-color: #AF2767;
+        height: 5vh;
+        color: #fff;
+        padding: 1vh;">
+
+            <div style="display: grid;
+            grid-template-columns: auto auto auto auto;
+            align-items: center;
+            transform: translateY(-15px);" >
+
+                <!--Links de navegação-->
+                <a style="text-decoration: none;
+                color: #ffff;
+                margin-left: 50px;" href="index.html">
+                    <h1>VERSATILLE</h1>
+                </a>
+
+                <a style="text-decoration: none;
+                color: #ffff;
+                margin-left: 50px;" href="sobre_versatille.html">
+                    Sobre o Versatille
+                </a>
+
+                <a style="text-decoration: none;
+                color: #ffff;
+                margin-left: 50px;" href="guarda-roupa.html">
+                    Guarda-Roupa
+                </a>
+
+                <!--Botão de entrar-->
+                <a style="border-radius: 10px;
+                background-color: #FFD8D3;
+                max-width: 15vh;
+                padding: 0.5vh;
+                text-align: center;
+                color: black;
+                text-decoration: none;" href="login.html" id="entrar">
+                    Entrar
+                </a>
+
+            </div>
+
+        </nav>
+    </header>
+
+    <!-- Conteúdo Principal / Painel Central -->
+    <main style="max-width: 1800px;
+    margin: 30px auto;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.4);">
+
+        <!-- Barra de Ferramentas / Categorias e Busca -->
+        <div style="background-color: #9f245b;
+        padding: 10px 15px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;">
+
+            <!-- Abas (Tudo/ Roupas / Acessórios) -->
+<div style="display: flex; gap: 5px;">
+
+    <a href="guarda-roupa.html">
+        <button style="
+            background-color: #f7d2e6;
+            color: #a82e63;
+            border: none;
+            padding: 12px 30px;
+            font-weight: bold;
+            border-radius: 4px;
+            cursor: pointer;">
+            Tudo
+        </button>
+    </a>
+
+    <a href="#">
+        <button style="
+            background-color: #a82e63;
+            color: #fff;
+            border: none;
+            padding: 12px 30px;
+            font-weight: bold;
+            border-radius: 4px;
+            cursor: pointer;">
+            Roupas
+        </button>
+    </a>
+
+    <a href="guardaRoupa_acessorios.html">
+        <button style="
+            background-color: #f7d2e6;
+            color: #8c1d50;
+            border: none;
+            padding: 12px 30px;
+            font-weight: bold;
+            border-radius: 4px;
+            cursor: pointer;">
+            Acessórios
+        </button>
+    </a>
+
+</div>
+
+            <button style="background-color: #f7d2e6;
+                color: #8c1d50;
+                border: none;
+                padding: 20px 35px;
+                font-weight: bold;
+                border-radius: 0px 0px 0 0;
+                cursor: pointer;">
+                    + Adicionar Peças
+                </button>
+
+            <!-- Campo de Busca -->
+            <div style="display: flex;
+            align-items: center;
+            background-color: white;
+            border-radius: 3px;
+            overflow: hidden;
+            border: 1px solid #ccc;">
+
+                <input type="text"
+                placeholder="Buscar peça..."
+                style="border: none;
+                padding: 6px 12px;
+                outline: none;
+                width: 200px;
+                font-size: 14px;">
+
+                <button style="background-color: #5c1437;
+                color: white;
+                border: none;
+                padding: 6px 10px;
+                cursor: pointer;
+                display: flex;
+                align-items: center;
+                justify-content: center;">
+                    🔍
+                </button>
+
+            </div>
+
+        </div>
+
+        <!-- Área de Conteúdo Rosa Claro -->
+        <section style="background-color: #fce1f4;
+        padding: 20px;
+        box-sizing: border-box;">
+
+            <!-- Grid de Roupas -->
+            <div style="display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 15px;">
+
+
+<!-- Item 1: Calcinha rosa com renda branca -->
+<div style="background-color: #ffffff; border: 2px solid #8c1d50; border-radius: 12px; padding: 10px; position: relative; display: flex; flex-direction: column; justify-content: space-between; align-items: center; height: 190px; box-sizing: border-box;">
+
+    <span style="position: absolute; top: 6px; right: 8px; font-size: 16px; color: #8c1d50; cursor: pointer;">♡</span>
+
+    <img src="IMG/Calcinha rosa com renda branca.png" alt="Calcinha rosa com renda branca" style="max-height: 110px; max-width: 100%; object-fit: contain; margin-top: 10px;">
+
+    <div style="width: 100%; display: flex; justify-content: space-between; align-items: flex-end;">
+
+        <span style="font-size: 13px; font-weight: bold; color: #8c1d50; font-family: sans-serif;">
+            Calcinha rosa com renda branca
+        </span>
+
+        <details style="position: relative; display: inline-block;">
+
+            <summary style="list-style: none; color: #8c1d50; border: 1.5px solid #8c1d50; border-radius: 50%; width: 16px; height: 16px; display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: bold; cursor: pointer; font-family: sans-serif;">
+                i
+            </summary>
+
+            <table style="position: absolute; bottom: 22px; right: 0; background-color: #fff; border: 1.5px solid #8c1d50; border-radius: 6px; border-collapse: collapse; font-size: 11px; color: #333; z-index: 10; min-width: 160px; box-shadow: 0 2px 8px rgba(0,0,0,0.2);">
+
+                <tr>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee; font-weight: bold; color: #8c1d50;">Tipo</td>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee;">Calcinha</td>
+                </tr>
+
+                <tr>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee; font-weight: bold; color: #8c1d50;">Cor</td>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee;">Rosa com renda branca</td>
+                </tr>
+
+                <tr>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee; font-weight: bold; color: #8c1d50;">Tamanho</td>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee;">P, M, G</td>
+                </tr>
+
+                <tr>
+                    <td style="padding: 4px 8px; font-weight: bold; color: #8c1d50;">Tecido</td>
+                    <td style="padding: 4px 8px;">Algodão com renda</td>
+                </tr>
+
+            </table>
+
+        </details>
+
+    </div>
+</div>
+
+
+<!-- Item 2: Short jeans azul -->
+<div style="background-color: #ffffff; border: 2px solid #8c1d50; border-radius: 12px; padding: 10px; position: relative; display: flex; flex-direction: column; justify-content: space-between; align-items: center; height: 190px; box-sizing: border-box;">
+
+    <span style="position: absolute; top: 6px; right: 8px; font-size: 16px; color: #8c1d50; cursor: pointer;">♡</span>
+
+    <img src="IMG/Short jeans azul.png" alt="Short jeans azul" style="max-height: 110px; max-width: 100%; object-fit: contain; margin-top: 10px;">
+
+    <div style="width: 100%; display: flex; justify-content: space-between; align-items: flex-end;">
+
+        <span style="font-size: 13px; font-weight: bold; color: #8c1d50; font-family: sans-serif;">
+            Short jeans azul
+        </span>
+
+        <details style="position: relative; display: inline-block;">
+
+            <summary style="list-style: none; color: #8c1d50; border: 1.5px solid #8c1d50; border-radius: 50%; width: 16px; height: 16px; display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: bold; cursor: pointer; font-family: sans-serif;">
+                i
+            </summary>
+
+            <table style="position: absolute; bottom: 22px; right: 0; background-color: #fff; border: 1.5px solid #8c1d50; border-radius: 6px; border-collapse: collapse; font-size: 11px; color: #333; z-index: 10; min-width: 160px; box-shadow: 0 2px 8px rgba(0,0,0,0.2);">
+
+                <tr>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee; font-weight: bold; color: #8c1d50;">Tipo</td>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee;">Short</td>
+                </tr>
+
+                <tr>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee; font-weight: bold; color: #8c1d50;">Cor</td>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee;">Azul jeans</td>
+                </tr>
+
+                <tr>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee; font-weight: bold; color: #8c1d50;">Tamanho</td>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee;">36, 38, 40</td>
+                </tr>
+
+                <tr>
+                    <td style="padding: 4px 8px; font-weight: bold; color: #8c1d50;">Tecido</td>
+                    <td style="padding: 4px 8px;">Jeans</td>
+                </tr>
+
+            </table>
+
+        </details>
+
+    </div>
+</div>
+
+
+<!-- Item 6: Blazer rosa claro -->
+<div style="background-color: #ffffff; border: 2px solid #8c1d50; border-radius: 12px; padding: 10px; position: relative; display: flex; flex-direction: column; justify-content: space-between; align-items: center; height: 190px; box-sizing: border-box;">
+
+    <span style="position: absolute; top: 6px; right: 8px; font-size: 16px; color: #8c1d50; cursor: pointer;">♡</span>
+
+    <img src="IMG/Blazer rosa claro.png" alt="Blazer rosa claro" style="max-height: 110px; max-width: 100%; object-fit: contain; margin-top: 10px;">
+
+    <div style="width: 100%; display: flex; justify-content: space-between; align-items: flex-end;">
+
+        <span style="font-size: 13px; font-weight: bold; color: #8c1d50; font-family: sans-serif;">
+            Blazer rosa claro
+        </span>
+
+        <details style="position: relative; display: inline-block;">
+
+            <summary style="list-style: none; color: #8c1d50; border: 1.5px solid #8c1d50; border-radius: 50%; width: 16px; height: 16px; display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: bold; cursor: pointer; font-family: sans-serif;">
+                i
+            </summary>
+
+            <table style="position: absolute; bottom: 22px; right: 0; background-color: #fff; border: 1.5px solid #8c1d50; border-radius: 6px; border-collapse: collapse; font-size: 11px; color: #333; z-index: 10; min-width: 160px; box-shadow: 0 2px 8px rgba(0,0,0,0.2);">
+
+                <tr>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee; font-weight: bold; color: #8c1d50;">Tipo</td>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee;">Blazer</td>
+                </tr>
+
+                <tr>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee; font-weight: bold; color: #8c1d50;">Cor</td>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee;">Rosa claro</td>
+                </tr>
+
+                <tr>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee; font-weight: bold; color: #8c1d50;">Tamanho</td>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee;">P, M, G</td>
+                </tr>
+
+                <tr>
+                    <td style="padding: 4px 8px; font-weight: bold; color: #8c1d50;">Tecido</td>
+                    <td style="padding: 4px 8px;">Poliéster</td>
+                </tr>
+
+            </table>
+
+        </details>
+
+    </div>
+</div>
+
+
+<!-- Item 7: Sandália azul escuro com detalhes dourados -->
+<div style="background-color: #ffffff; border: 2px solid #8c1d50; border-radius: 12px; padding: 10px; position: relative; display: flex; flex-direction: column; justify-content: space-between; align-items: center; height: 190px; box-sizing: border-box;">
+
+    <span style="position: absolute; top: 6px; right: 8px; font-size: 16px; color: #8c1d50; cursor: pointer;">♡</span>
+
+    <img src="IMG/Sandália azul escuro com detalhes dourados.png" alt="Sandália azul escuro com detalhes dourados" style="max-height: 110px; max-width: 100%; object-fit: contain; margin-top: 10px;">
+
+    <div style="width: 100%; display: flex; justify-content: space-between; align-items: flex-end;">
+
+        <span style="font-size: 13px; font-weight: bold; color: #8c1d50; font-family: sans-serif;">
+            Sandália azul escuro com detalhes dourados
+        </span>
+
+        <details style="position: relative; display: inline-block;">
+
+            <summary style="list-style: none; color: #8c1d50; border: 1.5px solid #8c1d50; border-radius: 50%; width: 16px; height: 16px; display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: bold; cursor: pointer; font-family: sans-serif;">
+                i
+            </summary>
+
+            <table style="position: absolute; bottom: 22px; right: 0; background-color: #fff; border: 1.5px solid #8c1d50; border-radius: 6px; border-collapse: collapse; font-size: 11px; color: #333; z-index: 10; min-width: 160px; box-shadow: 0 2px 8px rgba(0,0,0,0.2);">
+
+                <tr>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee; font-weight: bold; color: #8c1d50;">Tipo</td>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee;">Sandália</td>
+                </tr>
+
+                <tr>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee; font-weight: bold; color: #8c1d50;">Cor</td>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee;">Azul escuro e dourado</td>
+                </tr>
+
+                <tr>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee; font-weight: bold; color: #8c1d50;">Tamanho</td>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee;">34, 35, 36, 37</td>
+                </tr>
+
+                <tr>
+                    <td style="padding: 4px 8px; font-weight: bold; color: #8c1d50;">Material</td>
+                    <td style="padding: 4px 8px;">Sintético</td>
+                </tr>
+
+            </table>
+
+        </details>
+
+    </div>
+</div>
+
+
+<!-- Item 8: Shorts preto curto -->
+<div style="background-color: #ffffff; border: 2px solid #8c1d50; border-radius: 12px; padding: 10px; position: relative; display: flex; flex-direction: column; justify-content: space-between; align-items: center; height: 190px; box-sizing: border-box;">
+
+    <span style="position: absolute; top: 6px; right: 8px; font-size: 16px; color: #8c1d50; cursor: pointer;">♡</span>
+
+    <img src="IMG/Shorts preto curto.png" alt="Shorts preto curto" style="max-height: 110px; max-width: 100%; object-fit: contain; margin-top: 10px;">
+
+    <div style="width: 100%; display: flex; justify-content: space-between; align-items: flex-end;">
+
+        <span style="font-size: 13px; font-weight: bold; color: #8c1d50; font-family: sans-serif;">
+            Shorts preto curto
+        </span>
+
+        <details style="position: relative; display: inline-block;">
+
+            <summary style="list-style: none; color: #8c1d50; border: 1.5px solid #8c1d50; border-radius: 50%; width: 16px; height: 16px; display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: bold; cursor: pointer; font-family: sans-serif;">
+                i
+            </summary>
+
+            <table style="position: absolute; bottom: 22px; right: 0; background-color: #fff; border: 1.5px solid #8c1d50; border-radius: 6px; border-collapse: collapse; font-size: 11px; color: #333; z-index: 10; min-width: 160px; box-shadow: 0 2px 8px rgba(0,0,0,0.2);">
+
+                <tr>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee; font-weight: bold; color: #8c1d50;">Tipo</td>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee;">Shorts</td>
+                </tr>
+
+                <tr>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee; font-weight: bold; color: #8c1d50;">Cor</td>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee;">Preto</td>
+                </tr>
+
+                <tr>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee; font-weight: bold; color: #8c1d50;">Tamanho</td>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee;">P, M, G</td>
+                </tr>
+
+                <tr>
+                    <td style="padding: 4px 8px; font-weight: bold; color: #8c1d50;">Tecido</td>
+                    <td style="padding: 4px 8px;">Suplex</td>
+                </tr>
+
+            </table>
+
+        </details>
+
+    </div>
+</div>
+
+
+<!-- Item 9: Regata Rosa -->
+<div style="background-color: #ffffff; border: 2px solid #8c1d50; border-radius: 12px; padding: 10px; position: relative; display: flex; flex-direction: column; justify-content: space-between; align-items: center; height: 190px; box-sizing: border-box;">
+
+    <span style="position: absolute; top: 6px; right: 8px; font-size: 16px; color: #8c1d50; cursor: pointer;">♡</span>
+
+    <img src="IMG/Regata Rosa.png" alt="Regata Rosa" style="max-height: 110px; max-width: 100%; object-fit: contain; margin-top: 10px;">
+
+    <div style="width: 100%; display: flex; justify-content: space-between; align-items: flex-end;">
+
+        <span style="font-size: 13px; font-weight: bold; color: #8c1d50; font-family: sans-serif;">
+            Regata Rosa
+        </span>
+
+        <details style="position: relative; display: inline-block;">
+
+            <summary style="list-style: none; color: #8c1d50; border: 1.5px solid #8c1d50; border-radius: 50%; width: 16px; height: 16px; display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: bold; cursor: pointer; font-family: sans-serif;">
+                i
+            </summary>
+
+            <table style="position: absolute; bottom: 22px; right: 0; background-color: #fff; border: 1.5px solid #8c1d50; border-radius: 6px; border-collapse: collapse; font-size: 11px; color: #333; z-index: 10; min-width: 160px; box-shadow: 0 2px 8px rgba(0,0,0,0.2);">
+
+                <tr>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee; font-weight: bold; color: #8c1d50;">Tipo</td>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee;">Regata</td>
+                </tr>
+
+                <tr>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee; font-weight: bold; color: #8c1d50;">Cor</td>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee;">Rosa</td>
+                </tr>
+
+                <tr>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee; font-weight: bold; color: #8c1d50;">Tamanho</td>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee;">P, M, G</td>
+                </tr>
+
+                <tr>
+                    <td style="padding: 4px 8px; font-weight: bold; color: #8c1d50;">Tecido</td>
+                    <td style="padding: 4px 8px;">Algodão</td>
+                </tr>
+
+            </table>
+
+        </details>
+
+    </div>
+</div>
+
+
+<!-- Item 10: Chinelo vermelho listrado -->
+<div style="background-color: #ffffff; border: 2px solid #8c1d50; border-radius: 12px; padding: 10px; position: relative; display: flex; flex-direction: column; justify-content: space-between; align-items: center; height: 190px; box-sizing: border-box;">
+
+    <span style="position: absolute; top: 6px; right: 8px; font-size: 16px; color: #8c1d50; cursor: pointer;">♡</span>
+
+    <img src="IMG/Chinelo vermelho listrado.png" alt="Chinelo vermelho listrado" style="max-height: 110px; max-width: 100%; object-fit: contain; margin-top: 10px;">
+
+    <div style="width: 100%; display: flex; justify-content: space-between; align-items: flex-end;">
+
+        <span style="font-size: 13px; font-weight: bold; color: #8c1d50; font-family: sans-serif;">
+            Chinelo vermelho listrado
+        </span>
+
+        <details style="position: relative; display: inline-block;">
+
+            <summary style="list-style: none; color: #8c1d50; border: 1.5px solid #8c1d50; border-radius: 50%; width: 16px; height: 16px; display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: bold; cursor: pointer; font-family: sans-serif;">
+                i
+            </summary>
+
+            <table style="position: absolute; bottom: 22px; right: 0; background-color: #fff; border: 1.5px solid #8c1d50; border-radius: 6px; border-collapse: collapse; font-size: 11px; color: #333; z-index: 10; min-width: 160px; box-shadow: 0 2px 8px rgba(0,0,0,0.2);">
+
+                <tr>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee; font-weight: bold; color: #8c1d50;">Tipo</td>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee;">Chinelo</td>
+                </tr>
+
+                <tr>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee; font-weight: bold; color: #8c1d50;">Cor</td>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee;">Vermelho listrado</td>
+                </tr>
+
+                <tr>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee; font-weight: bold; color: #8c1d50;">Tamanho</td>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee;">34, 35, 36, 37</td>
+                </tr>
+
+                <tr>
+                    <td style="padding: 4px 8px; font-weight: bold; color: #8c1d50;">Material</td>
+                    <td style="padding: 4px 8px;">Borracha</td>
+                </tr>
+
+            </table>
+
+        </details>
+
+    </div>
+</div>
+
+
+<!-- Item 11: Bota marrom de cano baixo -->
+<div style="background-color: #ffffff; border: 2px solid #8c1d50; border-radius: 12px; padding: 10px; position: relative; display: flex; flex-direction: column; justify-content: space-between; align-items: center; height: 190px; box-sizing: border-box;">
+
+    <span style="position: absolute; top: 6px; right: 8px; font-size: 16px; color: #8c1d50; cursor: pointer;">♡</span>
+
+    <img src="IMG/Bota marrom de cano baixo.png" alt="Bota marrom de cano baixo" style="max-height: 110px; max-width: 100%; object-fit: contain; margin-top: 10px;">
+
+    <div style="width: 100%; display: flex; justify-content: space-between; align-items: flex-end;">
+
+        <span style="font-size: 13px; font-weight: bold; color: #8c1d50; font-family: sans-serif;">
+            Bota marrom de cano baixo
+        </span>
+
+        <details style="position: relative; display: inline-block;">
+
+            <summary style="list-style: none; color: #8c1d50; border: 1.5px solid #8c1d50; border-radius: 50%; width: 16px; height: 16px; display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: bold; cursor: pointer; font-family: sans-serif;">
+                i
+            </summary>
+
+            <table style="position: absolute; bottom: 22px; right: 0; background-color: #fff; border: 1.5px solid #8c1d50; border-radius: 6px; border-collapse: collapse; font-size: 11px; color: #333; z-index: 10; min-width: 160px; box-shadow: 0 2px 8px rgba(0,0,0,0.2);">
+
+                <tr>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee; font-weight: bold; color: #8c1d50;">Tipo</td>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee;">Bota</td>
+                </tr>
+
+                <tr>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee; font-weight: bold; color: #8c1d50;">Cor</td>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee;">Marrom</td>
+                </tr>
+
+                <tr>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee; font-weight: bold; color: #8c1d50;">Tamanho</td>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee;">34, 35, 36, 37</td>
+                </tr>
+
+                <tr>
+                    <td style="padding: 4px 8px; font-weight: bold; color: #8c1d50;">Material</td>
+                    <td style="padding: 4px 8px;">Couro sintético</td>
+                </tr>
+
+            </table>
+
+        </details>
+
+    </div>
+</div>
+
+
+<!-- Item 14: Jaqueta jeans azul -->
+<div style="background-color: #ffffff; border: 2px solid #8c1d50; border-radius: 12px; padding: 10px; position: relative; display: flex; flex-direction: column; justify-content: space-between; align-items: center; height: 190px; box-sizing: border-box;">
+
+    <span style="position: absolute; top: 6px; right: 8px; font-size: 16px; color: #8c1d50; cursor: pointer;">♡</span>
+
+    <img src="IMG/Jaqueta jeans azul.png" alt="Jaqueta jeans azul" style="max-height: 110px; max-width: 100%; object-fit: contain; margin-top: 10px;">
+
+    <div style="width: 100%; display: flex; justify-content: space-between; align-items: flex-end;">
+
+        <span style="font-size: 13px; font-weight: bold; color: #8c1d50; font-family: sans-serif;">
+            Jaqueta jeans azul
+        </span>
+
+        <details style="position: relative; display: inline-block;">
+
+            <summary style="list-style: none; color: #8c1d50; border: 1.5px solid #8c1d50; border-radius: 50%; width: 16px; height: 16px; display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: bold; cursor: pointer; font-family: sans-serif;">
+                i
+            </summary>
+
+            <table style="position: absolute; bottom: 22px; right: 0; background-color: #fff; border: 1.5px solid #8c1d50; border-radius: 6px; border-collapse: collapse; font-size: 11px; color: #333; z-index: 10; min-width: 160px; box-shadow: 0 2px 8px rgba(0,0,0,0.2);">
+
+                <tr>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee; font-weight: bold; color: #8c1d50;">Tipo</td>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee;">Jaqueta</td>
+                </tr>
+
+                <tr>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee; font-weight: bold; color: #8c1d50;">Cor</td>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee;">Azul jeans</td>
+                </tr>
+
+                <tr>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee; font-weight: bold; color: #8c1d50;">Tamanho</td>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee;">P, M, G</td>
+                </tr>
+
+                <tr>
+                    <td style="padding: 4px 8px; font-weight: bold; color: #8c1d50;">Tecido</td>
+                    <td style="padding: 4px 8px;">Jeans</td>
+                </tr>
+
+            </table>
+
+        </details>
+
+    </div>
+</div>
+
+
+<!-- Item 15: Cardigã Verde -->
+<div style="background-color: #ffffff; border: 2px solid #8c1d50; border-radius: 12px; padding: 10px; position: relative; display: flex; flex-direction: column; justify-content: space-between; align-items: center; height: 190px; box-sizing: border-box;">
+
+    <span style="position: absolute; top: 6px; right: 8px; font-size: 16px; color: #8c1d50; cursor: pointer;">♡</span>
+
+    <img src="IMG/Cardigã Verde.png" alt="Cardigã Verde" style="max-height: 110px; max-width: 100%; object-fit: contain; margin-top: 10px;">
+
+    <div style="width: 100%; display: flex; justify-content: space-between; align-items: flex-end;">
+
+        <span style="font-size: 13px; font-weight: bold; color: #8c1d50; font-family: sans-serif;">
+            Cardigã Verde
+        </span>
+
+        <details style="position: relative; display: inline-block;">
+
+            <summary style="list-style: none; color: #8c1d50; border: 1.5px solid #8c1d50; border-radius: 50%; width: 16px; height: 16px; display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: bold; cursor: pointer; font-family: sans-serif;">
+                i
+            </summary>
+
+            <table style="position: absolute; bottom: 22px; right: 0; background-color: #fff; border: 1.5px solid #8c1d50; border-radius: 6px; border-collapse: collapse; font-size: 11px; color: #333; z-index: 10; min-width: 160px; box-shadow: 0 2px 8px rgba(0,0,0,0.2);">
+
+                <tr>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee; font-weight: bold; color: #8c1d50;">Tipo</td>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee;">Cardigã</td>
+                </tr>
+
+                <tr>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee; font-weight: bold; color: #8c1d50;">Cor</td>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee;">Verde</td>
+                </tr>
+
+                <tr>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee; font-weight: bold; color: #8c1d50;">Tamanho</td>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee;">P, M, G</td>
+                </tr>
+
+                <tr>
+                    <td style="padding: 4px 8px; font-weight: bold; color: #8c1d50;">Tecido</td>
+                    <td style="padding: 4px 8px;">Tricô</td>
+                </tr>
+
+            </table>
+
+        </details>
+
+    </div>
+</div>
+
+
+<!-- Item 16: Calça de alfaiataria rosa -->
+<div style="background-color: #ffffff; border: 2px solid #8c1d50; border-radius: 12px; padding: 10px; position: relative; display: flex; flex-direction: column; justify-content: space-between; align-items: center; height: 190px; box-sizing: border-box;">
+
+    <span style="position: absolute; top: 6px; right: 8px; font-size: 16px; color: #8c1d50; cursor: pointer;">♡</span>
+
+    <img src="IMG/Calça de alfaiataria rosa.png" alt="Calça de alfaiataria rosa" style="max-height: 110px; max-width: 100%; object-fit: contain; margin-top: 10px;">
+
+    <div style="width: 100%; display: flex; justify-content: space-between; align-items: flex-end;">
+
+        <span style="font-size: 13px; font-weight: bold; color: #8c1d50; font-family: sans-serif;">
+            Calça de alfaiataria rosa
+        </span>
+
+        <details style="position: relative; display: inline-block;">
+
+            <summary style="list-style: none; color: #8c1d50; border: 1.5px solid #8c1d50; border-radius: 50%; width: 16px; height: 16px; display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: bold; cursor: pointer; font-family: sans-serif;">
+                i
+            </summary>
+
+            <table style="position: absolute; bottom: 22px; right: 0; background-color: #fff; border: 1.5px solid #8c1d50; border-radius: 6px; border-collapse: collapse; font-size: 11px; color: #333; z-index: 10; min-width: 160px; box-shadow: 0 2px 8px rgba(0,0,0,0.2);">
+
+                <tr>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee; font-weight: bold; color: #8c1d50;">Tipo</td>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee;">Calça de alfaiataria</td>
+                </tr>
+
+                <tr>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee; font-weight: bold; color: #8c1d50;">Cor</td>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee;">Rosa</td>
+                </tr>
+
+                <tr>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee; font-weight: bold; color: #8c1d50;">Tamanho</td>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee;">36, 38, 40</td>
+                </tr>
+
+                <tr>
+                    <td style="padding: 4px 8px; font-weight: bold; color: #8c1d50;">Tecido</td>
+                    <td style="padding: 4px 8px;">Poliéster</td>
+                </tr>
+
+            </table>
+
+        </details>
+
+    </div>
+</div>
+
+
+<!-- Item 17: Vestido vermelho -->
+<div style="background-color: #ffffff; border: 2px solid #8c1d50; border-radius: 12px; padding: 10px; position: relative; display: flex; flex-direction: column; justify-content: space-between; align-items: center; height: 190px; box-sizing: border-box;">
+
+    <span style="position: absolute; top: 6px; right: 8px; font-size: 16px; color: #8c1d50; cursor: pointer;">♡</span>
+
+    <img src="IMG/Vestido vermelho.png" alt="Vestido vermelho" style="max-height: 110px; max-width: 100%; object-fit: contain; margin-top: 10px;">
+
+    <div style="width: 100%; display: flex; justify-content: space-between; align-items: flex-end;">
+
+        <span style="font-size: 13px; font-weight: bold; color: #8c1d50; font-family: sans-serif;">
+            Vestido vermelho
+        </span>
+
+        <details style="position: relative; display: inline-block;">
+
+            <summary style="list-style: none; color: #8c1d50; border: 1.5px solid #8c1d50; border-radius: 50%; width: 16px; height: 16px; display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: bold; cursor: pointer; font-family: sans-serif;">
+                i
+            </summary>
+
+            <table style="position: absolute; bottom: 22px; right: 0; background-color: #fff; border: 1.5px solid #8c1d50; border-radius: 6px; border-collapse: collapse; font-size: 11px; color: #333; z-index: 10; min-width: 160px; box-shadow: 0 2px 8px rgba(0,0,0,0.2);">
+
+                <tr>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee; font-weight: bold; color: #8c1d50;">Tipo</td>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee;">Vestido</td>
+                </tr>
+
+                <tr>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee; font-weight: bold; color: #8c1d50;">Cor</td>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee;">Vermelho</td>
+                </tr>
+
+                <tr>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee; font-weight: bold; color: #8c1d50;">Tamanho</td>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee;">P, M, G</td>
+                </tr>
+
+                <tr>
+                    <td style="padding: 4px 8px; font-weight: bold; color: #8c1d50;">Tecido</td>
+                    <td style="padding: 4px 8px;">Crepe</td>
+                </tr>
+
+            </table>
+
+        </details>
+
+    </div>
+</div>
+
+
+<!-- Item 18: Saia rosa -->
+<div style="background-color: #ffffff; border: 2px solid #8c1d50; border-radius: 12px; padding: 10px; position: relative; display: flex; flex-direction: column; justify-content: space-between; align-items: center; height: 190px; box-sizing: border-box;">
+
+    <span style="position: absolute; top: 6px; right: 8px; font-size: 16px; color: #8c1d50; cursor: pointer;">♡</span>
+
+    <img src="IMG/Saia rosa.png" alt="Saia rosa" style="max-height: 110px; max-width: 100%; object-fit: contain; margin-top: 10px;">
+
+    <div style="width: 100%; display: flex; justify-content: space-between; align-items: flex-end;">
+
+        <span style="font-size: 13px; font-weight: bold; color: #8c1d50; font-family: sans-serif;">
+            Saia rosa
+        </span>
+
+        <details style="position: relative; display: inline-block;">
+
+            <summary style="list-style: none; color: #8c1d50; border: 1.5px solid #8c1d50; border-radius: 50%; width: 16px; height: 16px; display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: bold; cursor: pointer; font-family: sans-serif;">
+                i
+            </summary>
+
+            <table style="position: absolute; bottom: 22px; right: 0; background-color: #fff; border: 1.5px solid #8c1d50; border-radius: 6px; border-collapse: collapse; font-size: 11px; color: #333; z-index: 10; min-width: 160px; box-shadow: 0 2px 8px rgba(0,0,0,0.2);">
+
+                <tr>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee; font-weight: bold; color: #8c1d50;">Tipo</td>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee;">Saia</td>
+                </tr>
+
+                <tr>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee; font-weight: bold; color: #8c1d50;">Cor</td>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee;">Rosa</td>
+                </tr>
+
+                <tr>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee; font-weight: bold; color: #8c1d50;">Tamanho</td>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee;">P, M, G</td>
+                </tr>
+
+                <tr>
+                    <td style="padding: 4px 8px; font-weight: bold; color: #8c1d50;">Tecido</td>
+                    <td style="padding: 4px 8px;">Poliéster</td>
+                </tr>
+
+            </table>
+
+        </details>
+
+    </div>
+</div>
+
+
+<!-- Item 19: Pijama da Peppa Pig -->
+<div style="background-color: #ffffff; border: 2px solid #8c1d50; border-radius: 12px; padding: 10px; position: relative; display: flex; flex-direction: column; justify-content: space-between; align-items: center; height: 190px; box-sizing: border-box;">
+
+    <span style="position: absolute; top: 6px; right: 8px; font-size: 16px; color: #8c1d50; cursor: pointer;">♡</span>
+
+    <img src="IMG/Pijama da Peppa pig.png" alt="Pijama da Peppa Pig" style="max-height: 110px; max-width: 100%; object-fit: contain; margin-top: 10px;">
+
+    <div style="width: 100%; display: flex; justify-content: space-between; align-items: flex-end;">
+
+        <span style="font-size: 13px; font-weight: bold; color: #8c1d50; font-family: sans-serif;">
+            Pijama da Peppa Pig
+        </span>
+
+        <details style="position: relative; display: inline-block;">
+
+            <summary style="list-style: none; color: #8c1d50; border: 1.5px solid #8c1d50; border-radius: 50%; width: 16px; height: 16px; display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: bold; cursor: pointer; font-family: sans-serif;">
+                i
+            </summary>
+
+            <table style="position: absolute; bottom: 22px; right: 0; background-color: #fff; border: 1.5px solid #8c1d50; border-radius: 6px; border-collapse: collapse; font-size: 11px; color: #333; z-index: 10; min-width: 160px; box-shadow: 0 2px 8px rgba(0,0,0,0.2);">
+
+                <tr>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee; font-weight: bold; color: #8c1d50;">Tipo</td>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee;">Pijama</td>
+                </tr>
+
+                <tr>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee; font-weight: bold; color: #8c1d50;">Cor</td>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee;">Rosa com estampa</td>
+                </tr>
+
+                <tr>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee; font-weight: bold; color: #8c1d50;">Tamanho</td>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee;">P, M, G</td>
+                </tr>
+
+                <tr>
+                    <td style="padding: 4px 8px; font-weight: bold; color: #8c1d50;">Tecido</td>
+                    <td style="padding: 4px 8px;">Algodão</td>
+                </tr>
+
+            </table>
+
+        </details>
+
+    </div>
+</div>
+
+
+<!-- Item 20: Pijama com listras azuis e laranjas -->
+<div style="background-color: #ffffff; border: 2px solid #8c1d50; border-radius: 12px; padding: 10px; position: relative; display: flex; flex-direction: column; justify-content: space-between; align-items: center; height: 190px; box-sizing: border-box;">
+
+    <span style="position: absolute; top: 6px; right: 8px; font-size: 16px; color: #8c1d50; cursor: pointer;">♡</span>
+
+    <img src="IMG/Pijama com listras azuis e laranjas.png" alt="Pijama com listras azuis e laranjas" style="max-height: 110px; max-width: 100%; object-fit: contain; margin-top: 10px;">
+
+    <div style="width: 100%; display: flex; justify-content: space-between; align-items: flex-end;">
+
+        <span style="font-size: 13px; font-weight: bold; color: #8c1d50; font-family: sans-serif;">
+            Pijama com listras azuis e laranjas
+        </span>
+
+        <details style="position: relative; display: inline-block;">
+
+            <summary style="list-style: none; color: #8c1d50; border: 1.5px solid #8c1d50; border-radius: 50%; width: 16px; height: 16px; display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: bold; cursor: pointer; font-family: sans-serif;">
+                i
+            </summary>
+
+            <table style="position: absolute; bottom: 22px; right: 0; background-color: #fff; border: 1.5px solid #8c1d50; border-radius: 6px; border-collapse: collapse; font-size: 11px; color: #333; z-index: 10; min-width: 160px; box-shadow: 0 2px 8px rgba(0,0,0,0.2);">
+
+                <tr>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee; font-weight: bold; color: #8c1d50;">Tipo</td>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee;">Pijama</td>
+                </tr>
+
+                <tr>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee; font-weight: bold; color: #8c1d50;">Cor</td>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee;">Azul e laranja</td>
+                </tr>
+
+                <tr>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee; font-weight: bold; color: #8c1d50;">Tamanho</td>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee;">P, M, G</td>
+                </tr>
+
+                <tr>
+                    <td style="padding: 4px 8px; font-weight: bold; color: #8c1d50;">Tecido</td>
+                    <td style="padding: 4px 8px;">Algodão</td>
+                </tr>
+
+            </table>
+
+        </details>
+
+    </div>
+</div>
+
+
+<!-- Item 21: Saia preta -->
+<div style="background-color: #ffffff; border: 2px solid #8c1d50; border-radius: 12px; padding: 10px; position: relative; display: flex; flex-direction: column; justify-content: space-between; align-items: center; height: 190px; box-sizing: border-box;">
+
+    <span style="position: absolute; top: 6px; right: 8px; font-size: 16px; color: #8c1d50; cursor: pointer;">♡</span>
+
+    <img src="IMG/Saia preta.png" alt="Saia preta" style="max-height: 110px; max-width: 100%; object-fit: contain; margin-top: 10px;">
+
+    <div style="width: 100%; display: flex; justify-content: space-between; align-items: flex-end;">
+
+        <span style="font-size: 13px; font-weight: bold; color: #8c1d50; font-family: sans-serif;">
+            Saia preta
+        </span>
+
+        <details style="position: relative; display: inline-block;">
+
+            <summary style="list-style: none; color: #8c1d50; border: 1.5px solid #8c1d50; border-radius: 50%; width: 16px; height: 16px; display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: bold; cursor: pointer; font-family: sans-serif;">
+                i
+            </summary>
+
+            <table style="position: absolute; bottom: 22px; right: 0; background-color: #fff; border: 1.5px solid #8c1d50; border-radius: 6px; border-collapse: collapse; font-size: 11px; color: #333; z-index: 10; min-width: 160px; box-shadow: 0 2px 8px rgba(0,0,0,0.2);">
+
+                <tr>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee; font-weight: bold; color: #8c1d50;">Tipo</td>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee;">Saia</td>
+                </tr>
+
+                <tr>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee; font-weight: bold; color: #8c1d50;">Cor</td>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee;">Preta</td>
+                </tr>
+
+                <tr>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee; font-weight: bold; color: #8c1d50;">Tamanho</td>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee;">P, M, G</td>
+                </tr>
+
+                <tr>
+                    <td style="padding: 4px 8px; font-weight: bold; color: #8c1d50;">Tecido</td>
+                    <td style="padding: 4px 8px;">Poliéster</td>
+                </tr>
+
+            </table>
+
+        </details>
+
+    </div>
+</div>
+
+
+<!-- Item 22: Salto alto vermelho brilhante -->
+<div style="background-color: #ffffff; border: 2px solid #8c1d50; border-radius: 12px; padding: 10px; position: relative; display: flex; flex-direction: column; justify-content: space-between; align-items: center; height: 190px; box-sizing: border-box;">
+
+    <span style="position: absolute; top: 6px; right: 8px; font-size: 16px; color: #8c1d50; cursor: pointer;">♡</span>
+
+    <img src="IMG/Salto alto vermelho brilhante.png" alt="Salto alto vermelho brilhante" style="max-height: 110px; max-width: 100%; object-fit: contain; margin-top: 10px;">
+
+    <div style="width: 100%; display: flex; justify-content: space-between; align-items: flex-end;">
+
+        <span style="font-size: 13px; font-weight: bold; color: #8c1d50; font-family: sans-serif;">
+            Salto alto vermelho brilhante
+        </span>
+
+        <details style="position: relative; display: inline-block;">
+
+            <summary style="list-style: none; color: #8c1d50; border: 1.5px solid #8c1d50; border-radius: 50%; width: 16px; height: 16px; display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: bold; cursor: pointer; font-family: sans-serif;">
+                i
+            </summary>
+
+            <table style="position: absolute; bottom: 22px; right: 0; background-color: #fff; border: 1.5px solid #8c1d50; border-radius: 6px; border-collapse: collapse; font-size: 11px; color: #333; z-index: 10; min-width: 160px; box-shadow: 0 2px 8px rgba(0,0,0,0.2);">
+
+                <tr>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee; font-weight: bold; color: #8c1d50;">Tipo</td>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee;">Salto alto</td>
+                </tr>
+
+                <tr>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee; font-weight: bold; color: #8c1d50;">Cor</td>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee;">Vermelho brilhante</td>
+                </tr>
+
+                <tr>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee; font-weight: bold; color: #8c1d50;">Tamanho</td>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee;">34, 35, 36, 37</td>
+                </tr>
+
+                <tr>
+                    <td style="padding: 4px 8px; font-weight: bold; color: #8c1d50;">Material</td>
+                    <td style="padding: 4px 8px;">Sintético</td>
+                </tr>
+
+            </table>
+
+        </details>
+
+    </div>
+</div>
+
+
+<!-- Item 23: Jaqueta preta de couro -->
+<div style="background-color: #ffffff; border: 2px solid #8c1d50; border-radius: 12px; padding: 10px; position: relative; display: flex; flex-direction: column; justify-content: space-between; align-items: center; height: 190px; box-sizing: border-box;">
+
+    <span style="position: absolute; top: 6px; right: 8px; font-size: 16px; color: #8c1d50; cursor: pointer;">♡</span>
+
+    <img src="IMG/Jaqueta preta de couro.png" alt="Jaqueta preta de couro" style="max-height: 110px; max-width: 100%; object-fit: contain; margin-top: 10px;">
+
+    <div style="width: 100%; display: flex; justify-content: space-between; align-items: flex-end;">
+
+        <span style="font-size: 13px; font-weight: bold; color: #8c1d50; font-family: sans-serif;">
+            Jaqueta preta de couro
+        </span>
+
+        <details style="position: relative; display: inline-block;">
+
+            <summary style="list-style: none; color: #8c1d50; border: 1.5px solid #8c1d50; border-radius: 50%; width: 16px; height: 16px; display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: bold; cursor: pointer; font-family: sans-serif;">
+                i
+            </summary>
+
+            <table style="position: absolute; bottom: 22px; right: 0; background-color: #fff; border: 1.5px solid #8c1d50; border-radius: 6px; border-collapse: collapse; font-size: 11px; color: #333; z-index: 10; min-width: 160px; box-shadow: 0 2px 8px rgba(0,0,0,0.2);">
+
+                <tr>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee; font-weight: bold; color: #8c1d50;">Tipo</td>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee;">Jaqueta</td>
+                </tr>
+
+                <tr>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee; font-weight: bold; color: #8c1d50;">Cor</td>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee;">Preta</td>
+                </tr>
+
+                <tr>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee; font-weight: bold; color: #8c1d50;">Tamanho</td>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee;">P, M, G</td>
+                </tr>
+
+                <tr>
+                    <td style="padding: 4px 8px; font-weight: bold; color: #8c1d50;">Material</td>
+                    <td style="padding: 4px 8px;">Couro</td>
+                </tr>
+
+            </table>
+
+        </details>
+
+    </div>
+</div>
+
+
+<!-- Item 24: Botas vermelhas de cano alto -->
+<div style="background-color: #ffffff; border: 2px solid #8c1d50; border-radius: 12px; padding: 10px; position: relative; display: flex; flex-direction: column; justify-content: space-between; align-items: center; height: 190px; box-sizing: border-box;">
+
+    <span style="position: absolute; top: 6px; right: 8px; font-size: 16px; color: #8c1d50; cursor: pointer;">♡</span>
+
+    <img src="IMG/Botas vermelhas de cano alto.png" alt="Botas vermelhas de cano alto" style="max-height: 110px; max-width: 100%; object-fit: contain; margin-top: 10px;">
+
+    <div style="width: 100%; display: flex; justify-content: space-between; align-items: flex-end;">
+
+        <span style="font-size: 13px; font-weight: bold; color: #8c1d50; font-family: sans-serif;">
+            Botas vermelhas de cano alto
+        </span>
+
+        <details style="position: relative; display: inline-block;">
+
+            <summary style="list-style: none; color: #8c1d50; border: 1.5px solid #8c1d50; border-radius: 50%; width: 16px; height: 16px; display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: bold; cursor: pointer; font-family: sans-serif;">
+                i
+            </summary>
+
+            <table style="position: absolute; bottom: 22px; right: 0; background-color: #fff; border: 1.5px solid #8c1d50; border-radius: 6px; border-collapse: collapse; font-size: 11px; color: #333; z-index: 10; min-width: 160px; box-shadow: 0 2px 8px rgba(0,0,0,0.2);">
+
+                <tr>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee; font-weight: bold; color: #8c1d50;">Tipo</td>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee;">Bota</td>
+                </tr>
+
+                <tr>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee; font-weight: bold; color: #8c1d50;">Cor</td>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee;">Vermelha</td>
+                </tr>
+
+                <tr>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee; font-weight: bold; color: #8c1d50;">Tamanho</td>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee;">34, 35, 36, 37</td>
+                </tr>
+
+                <tr>
+                    <td style="padding: 4px 8px; font-weight: bold; color: #8c1d50;">Material</td>
+                    <td style="padding: 4px 8px;">Couro sintético</td>
+                </tr>
+
+            </table>
+
+        </details>
+
+    </div>
+</div>
+
+
+<!-- Item 25: Salto alto preto com detalhes prateados -->
+<div style="background-color: #ffffff; border: 2px solid #8c1d50; border-radius: 12px; padding: 10px; position: relative; display: flex; flex-direction: column; justify-content: space-between; align-items: center; height: 190px; box-sizing: border-box;">
+
+    <span style="position: absolute; top: 6px; right: 8px; font-size: 16px; color: #8c1d50; cursor: pointer;">♡</span>
+
+    <img src="IMG/Salto alto preto com detalhes prateados.png" alt="Salto alto preto com detalhes prateados" style="max-height: 110px; max-width: 100%; object-fit: contain; margin-top: 10px;">
+
+    <div style="width: 100%; display: flex; justify-content: space-between; align-items: flex-end;">
+
+        <span style="font-size: 13px; font-weight: bold; color: #8c1d50; font-family: sans-serif;">
+            Salto alto preto com detalhes prateados
+        </span>
+
+        <details style="position: relative; display: inline-block;">
+
+            <summary style="list-style: none; color: #8c1d50; border: 1.5px solid #8c1d50; border-radius: 50%; width: 16px; height: 16px; display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: bold; cursor: pointer; font-family: sans-serif;">
+                i
+            </summary>
+
+            <table style="position: absolute; bottom: 22px; right: 0; background-color: #fff; border: 1.5px solid #8c1d50; border-radius: 6px; border-collapse: collapse; font-size: 11px; color: #333; z-index: 10; min-width: 160px; box-shadow: 0 2px 8px rgba(0,0,0,0.2);">
+
+                <tr>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee; font-weight: bold; color: #8c1d50;">Tipo</td>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee;">Salto alto</td>
+                </tr>
+
+                <tr>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee; font-weight: bold; color: #8c1d50;">Cor</td>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee;">Preto e prateado</td>
+                </tr>
+
+                <tr>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee; font-weight: bold; color: #8c1d50;">Tamanho</td>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee;">34, 35, 36, 37</td>
+                </tr>
+
+                <tr>
+                    <td style="padding: 4px 8px; font-weight: bold; color: #8c1d50;">Material</td>
+                    <td style="padding: 4px 8px;">Sintético</td>
+                </tr>
+
+            </table>
+
+        </details>
+
+    </div>
+</div>
+
+
+<!-- Item 26: All Star amarelo -->
+<div style="background-color: #ffffff; border: 2px solid #8c1d50; border-radius: 12px; padding: 10px; position: relative; display: flex; flex-direction: column; justify-content: space-between; align-items: center; height: 190px; box-sizing: border-box;">
+
+    <span style="position: absolute; top: 6px; right: 8px; font-size: 16px; color: #8c1d50; cursor: pointer;">♡</span>
+
+    <img src="IMG/All Star amarelo.png" alt="All Star amarelo" style="max-height: 110px; max-width: 100%; object-fit: contain; margin-top: 10px;">
+
+    <div style="width: 100%; display: flex; justify-content: space-between; align-items: flex-end;">
+
+        <span style="font-size: 13px; font-weight: bold; color: #8c1d50; font-family: sans-serif;">
+            All Star amarelo
+        </span>
+
+        <details style="position: relative; display: inline-block;">
+
+            <summary style="list-style: none; color: #8c1d50; border: 1.5px solid #8c1d50; border-radius: 50%; width: 16px; height: 16px; display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: bold; cursor: pointer; font-family: sans-serif;">
+                i
+            </summary>
+
+            <table style="position: absolute; bottom: 22px; right: 0; background-color: #fff; border: 1.5px solid #8c1d50; border-radius: 6px; border-collapse: collapse; font-size: 11px; color: #333; z-index: 10; min-width: 160px; box-shadow: 0 2px 8px rgba(0,0,0,0.2);">
+
+                <tr>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee; font-weight: bold; color: #8c1d50;">Tipo</td>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee;">Tênis</td>
+                </tr>
+
+                <tr>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee; font-weight: bold; color: #8c1d50;">Cor</td>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee;">Amarelo</td>
+                </tr>
+
+                <tr>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee; font-weight: bold; color: #8c1d50;">Tamanho</td>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee;">34, 35, 36, 37</td>
+                </tr>
+
+                <tr>
+                    <td style="padding: 4px 8px; font-weight: bold; color: #8c1d50;">Material</td>
+                    <td style="padding: 4px 8px;">Lona</td>
+                </tr>
+
+            </table>
+
+        </details>
+
+    </div>
+</div>
+
+
+<!-- Item 29: Vestido preto estilo bailarina -->
+<div style="background-color: #ffffff; border: 2px solid #8c1d50; border-radius: 12px; padding: 10px; position: relative; display: flex; flex-direction: column; justify-content: space-between; align-items: center; height: 190px; box-sizing: border-box;">
+
+    <span style="position: absolute; top: 6px; right: 8px; font-size: 16px; color: #8c1d50; cursor: pointer;">♡</span>
+
+    <img src="IMG/Vestido preto estilo bailarina.png" alt="Vestido preto estilo bailarina" style="max-height: 110px; max-width: 100%; object-fit: contain; margin-top: 10px;">
+
+    <div style="width: 100%; display: flex; justify-content: space-between; align-items: flex-end;">
+
+        <span style="font-size: 13px; font-weight: bold; color: #8c1d50; font-family: sans-serif;">
+            Vestido preto estilo bailarina
+        </span>
+
+        <details style="position: relative; display: inline-block;">
+
+            <summary style="list-style: none; color: #8c1d50; border: 1.5px solid #8c1d50; border-radius: 50%; width: 16px; height: 16px; display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: bold; cursor: pointer; font-family: sans-serif;">
+                i
+            </summary>
+
+            <table style="position: absolute; bottom: 22px; right: 0; background-color: #fff; border: 1.5px solid #8c1d50; border-radius: 6px; border-collapse: collapse; font-size: 11px; color: #333; z-index: 10; min-width: 160px; box-shadow: 0 2px 8px rgba(0,0,0,0.2);">
+
+                <tr>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee; font-weight: bold; color: #8c1d50;">Tipo</td>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee;">Vestido</td>
+                </tr>
+
+                <tr>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee; font-weight: bold; color: #8c1d50;">Cor</td>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee;">Preto</td>
+                </tr>
+
+                <tr>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee; font-weight: bold; color: #8c1d50;">Tamanho</td>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee;">P, M, G</td>
+                </tr>
+
+                <tr>
+                    <td style="padding: 4px 8px; font-weight: bold; color: #8c1d50;">Tecido</td>
+                    <td style="padding: 4px 8px;">Tule e cetim</td>
+                </tr>
+
+            </table>
+
+        </details>
+
+    </div>
+</div>
+
+
+<!-- Item 30: All Star rosa escuro -->
+<div style="background-color: #ffffff; border: 2px solid #8c1d50; border-radius: 12px; padding: 10px; position: relative; display: flex; flex-direction: column; justify-content: space-between; align-items: center; height: 190px; box-sizing: border-box;">
+
+    <span style="position: absolute; top: 6px; right: 8px; font-size: 16px; color: #8c1d50; cursor: pointer;">♡</span>
+
+    <img src="IMG/All Star rosa escuro.png" alt="All Star rosa escuro" style="max-height: 110px; max-width: 100%; object-fit: contain; margin-top: 10px;">
+
+    <div style="width: 100%; display: flex; justify-content: space-between; align-items: flex-end;">
+
+        <span style="font-size: 13px; font-weight: bold; color: #8c1d50; font-family: sans-serif;">
+            All Star rosa escuro
+        </span>
+
+        <details style="position: relative; display: inline-block;">
+
+            <summary style="list-style: none; color: #8c1d50; border: 1.5px solid #8c1d50; border-radius: 50%; width: 16px; height: 16px; display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: bold; cursor: pointer; font-family: sans-serif;">
+                i
+            </summary>
+
+            <table style="position: absolute; bottom: 22px; right: 0; background-color: #fff; border: 1.5px solid #8c1d50; border-radius: 6px; border-collapse: collapse; font-size: 11px; color: #333; z-index: 10; min-width: 160px; box-shadow: 0 2px 8px rgba(0,0,0,0.2);">
+
+                <tr>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee; font-weight: bold; color: #8c1d50;">Tipo</td>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee;">Tênis</td>
+                </tr>
+
+                <tr>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee; font-weight: bold; color: #8c1d50;">Cor</td>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee;">Rosa escuro</td>
+                </tr>
+
+                <tr>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee; font-weight: bold; color: #8c1d50;">Tamanho</td>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee;">34, 35, 36, 37</td>
+                </tr>
+
+                <tr>
+                    <td style="padding: 4px 8px; font-weight: bold; color: #8c1d50;">Material</td>
+                    <td style="padding: 4px 8px;">Lona</td>
+                </tr>
+
+            </table>
+
+        </details>
+
+    </div>
+</div>
+
+
+<!-- Item 31: Pijama com pequenas flores vermelhas -->
+<div style="background-color: #ffffff; border: 2px solid #8c1d50; border-radius: 12px; padding: 10px; position: relative; display: flex; flex-direction: column; justify-content: space-between; align-items: center; height: 190px; box-sizing: border-box;">
+
+    <span style="position: absolute; top: 6px; right: 8px; font-size: 16px; color: #8c1d50; cursor: pointer;">♡</span>
+
+    <img src="IMG/Pijama com pequenas flores vermelhas.png" alt="Pijama com pequenas flores vermelhas" style="max-height: 110px; max-width: 100%; object-fit: contain; margin-top: 10px;">
+
+    <div style="width: 100%; display: flex; justify-content: space-between; align-items: flex-end;">
+
+        <span style="font-size: 13px; font-weight: bold; color: #8c1d50; font-family: sans-serif;">
+            Pijama com pequenas flores vermelhas
+        </span>
+
+        <details style="position: relative; display: inline-block;">
+
+            <summary style="list-style: none; color: #8c1d50; border: 1.5px solid #8c1d50; border-radius: 50%; width: 16px; height: 16px; display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: bold; cursor: pointer; font-family: sans-serif;">
+                i
+            </summary>
+
+            <table style="position: absolute; bottom: 22px; right: 0; background-color: #fff; border: 1.5px solid #8c1d50; border-radius: 6px; border-collapse: collapse; font-size: 11px; color: #333; z-index: 10; min-width: 160px; box-shadow: 0 2px 8px rgba(0,0,0,0.2);">
+
+                <tr>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee; font-weight: bold; color: #8c1d50;">Tipo</td>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee;">Pijama</td>
+                </tr>
+
+                <tr>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee; font-weight: bold; color: #8c1d50;">Cor</td>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee;">Branco com flores vermelhas</td>
+                </tr>
+
+                <tr>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee; font-weight: bold; color: #8c1d50;">Tamanho</td>
+                    <td style="padding: 4px 8px; border-bottom: 1px solid #eee;">P, M, G</td>
+                </tr>
+
+                <tr>
+                    <td style="padding: 4px 8px; font-weight: bold; color: #8c1d50;">Tecido</td>
+                    <td style="padding: 4px 8px;">Algodão</td>
+                </tr>
+
+            </table>
+
+        </details>
+
+    </div>
+</div>
+
+
+
+            </div>
+
+        </section>
+
+    </main>
+
+        <!--Rodapé-->
+    <footer style="    background-color: #AF2767;
+                        margin-top: 20vh;
+                        height: 35vh;">
+
+                <!--Links de navegação-->
+                    <a style="    text-decoration: none;
+                    color: #ffff;
+                    margin-left: 50px;" href="index.html">
+                    <h1 align="center">VERSATILLE</h1> <!--Logo da nav-->
+                </a>
+
+        <!--Adicionando imagem do footer rodape.jpg -->
+        <div style="    display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        margin-top: 5vh;">
+            <img src="IMG/rodape2.png" style="    width: 100%;
+                                                    max-height: 50%;">
+                
+
+    </footer>
+
+</body>
+
+</html>
+
